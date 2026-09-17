@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from fastapi import Depends, FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, File, HTTPException, Query, UploadFile
 from sqlalchemy.orm import Session
 
 from app.catalogue.repository import count_products, count_relationships, get_components, get_product, get_relationships, list_products
@@ -23,11 +23,13 @@ from app.orchestration.schemas import DesignGenerateRequest, DesignGenerateRespo
 from app.orchestration.service import DesignOrchestrator
 from app.retrieval.schemas import RetrievalRequest, RetrievalResponse
 from app.retrieval.service import CatalogueRetrievalService
+from app.vision.schemas import VisionAnalyzeResponse
+from app.vision.service import BathroomVisionService
 
 app = FastAPI(
     title="KOHLER AI Bathroom Intelligence API",
-    version="1.0.0",
-    description="Catalogue truth + retrieval + deterministic constraints/spatial validation + optimization + guarded Nova intent extraction + catalogue-grounded colour intelligence + end-to-end design orchestration.",
+    version="1.1.0",
+    description="Catalogue truth + retrieval + deterministic constraints/spatial validation + optimization + guarded Nova intent/image understanding + catalogue-grounded colour intelligence + end-to-end design orchestration.",
 )
 
 
@@ -109,3 +111,17 @@ def colour_palette(request: PaletteRequest, db: Session = Depends(get_db)) -> Pa
 @app.post("/design/generate", response_model=DesignGenerateResponse)
 def generate_design(request: DesignGenerateRequest, db: Session = Depends(get_db)) -> DesignGenerateResponse:
     return DesignOrchestrator(db).generate(request)
+
+
+@app.post("/vision/analyze", response_model=VisionAnalyzeResponse)
+async def analyze_bathroom_image(file: UploadFile = File(...)) -> VisionAnalyzeResponse:
+    allowed = {"image/jpeg": "jpeg", "image/png": "png", "image/webp": "webp", "image/gif": "gif"}
+    image_format = allowed.get(file.content_type or "")
+    if image_format is None:
+        raise HTTPException(status_code=415, detail="Supported image types: JPEG, PNG, WEBP, GIF.")
+    data = await file.read()
+    if not data:
+        raise HTTPException(status_code=400, detail="Uploaded image is empty.")
+    if len(data) > 10 * 1024 * 1024:
+        raise HTTPException(status_code=413, detail="Image exceeds the 10 MB upload limit.")
+    return BathroomVisionService().analyze(data, image_format)
