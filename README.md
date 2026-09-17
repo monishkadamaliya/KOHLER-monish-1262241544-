@@ -8,7 +8,7 @@ Bathroom product selection requires balancing multiple constraints simultaneousl
 
 ## 2. Proposed Solution
 
-We propose a **hybrid AI + optimization system** that understands the user's requirements and generates a feasible bathroom product bundle.
+I propose a **hybrid AI + optimization system** that understands the user's requirements and generates a feasible bathroom product bundle.
 
 The system:
 - Understands bathroom dimensions, layout/image, budget, and preferred theme.
