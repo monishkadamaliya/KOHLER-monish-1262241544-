@@ -11,14 +11,16 @@ from app.catalogue.repository import (
     get_relationships,
     list_products,
 )
-from app.db.database import SessionLocal, engine, get_db
+from app.db.database import engine, get_db
 from app.db.models import Base
 from app.db.schemas import ProductOut, RelationshipOut
+from app.retrieval.schemas import RetrievalRequest, RetrievalResponse
+from app.retrieval.service import CatalogueRetrievalService
 
 app = FastAPI(
     title="KOHLER AI Bathroom Intelligence API",
-    version="0.2.0",
-    description="Engine 1: authoritative catalogue access layer for the constraint-aware design system.",
+    version="0.3.0",
+    description="Engine 1 catalogue truth + Engine 2 ranked catalogue retrieval for the constraint-aware design system.",
 )
 
 
@@ -70,3 +72,11 @@ def relationships(sku: str, db: Session = Depends(get_db)) -> list[RelationshipO
 @app.get("/products/{sku}/components", response_model=list[RelationshipOut])
 def components(sku: str, db: Session = Depends(get_db)) -> list[RelationshipOut]:
     return get_components(db, sku)
+
+
+@app.post("/retrieval/search", response_model=RetrievalResponse)
+def retrieval_search(
+    request: RetrievalRequest,
+    db: Session = Depends(get_db),
+) -> RetrievalResponse:
+    return CatalogueRetrievalService(db).search(request)
