@@ -1,6 +1,6 @@
-# Engine 4.1 — Configuration Search & Pareto Optimization
+# Engine 4.2 — Feasible Configuration Solver
 
-Engine 4.1 searches complete bathroom configurations rather than scoring isolated products.
+Engine 4.2 connects configuration search to deterministic dependency and spatial validation.
 
 ## Flow
 
@@ -8,40 +8,40 @@ Engine 4.1 searches complete bathroom configurations rather than scoring isolate
 Category candidates
 → bounded configuration generation
 → hard budget / catalogue checks
-→ configuration objective evaluation
+→ explicit dependency validation
+→ deterministic placement search
+→ Engine 3.1 spatial validation
 → Pareto frontier
 → weighted ranking
-→ top-K design alternatives
+→ top-K feasible design alternatives
 ```
 
-## Hard constraints
+## Placement solver
 
-A configuration is discarded when:
-- a SKU is absent from the authoritative catalogue
-- a required price is missing
-- total catalogue price exceeds the requested budget
+- Uses real catalogue width/depth values; no footprint is invented.
+- Searches a bounded room grid with 0°/90° rotations.
+- Uses deterministic backtracking to avoid fixture-footprint collisions.
+- Rejects configurable/site-dependent products from automatic placement when a deterministic footprint is unavailable.
+- Sends generated placements through the Engine 3.1 spatial validator before a configuration is marked feasible.
 
-Spatial collision and detailed compatibility remain deterministic Engine 3/3.1 responsibilities and must be invoked before a configuration is presented as physically valid.
+## Compatibility semantics
 
-## Objectives
+- `requires` is a hard dependency: the required SKU must be selected and resolvable.
+- `compatible_with` contributes explicit compatibility evidence when the related SKU is selected.
+- `included_component` is not double-counted as a separate purchase requirement.
+- `order_with` is not silently converted into a hard requirement.
+- Absence of a relationship is not treated as proof of incompatibility.
 
-- spatial feasibility
-- compatibility evidence
-- budget efficiency
-- style match
-- colour match
-- space efficiency
-- functionality
-- documented sustainability evidence
+## Endpoint
 
-## Pareto reasoning
+`POST /optimize/configuration`
 
-A configuration is retained on the Pareto frontier when no other evaluated configuration is at least as good across every objective and strictly better on one. This preserves meaningful trade-offs instead of forcing one hidden definition of “best”.
+The request supplies category → SKU candidates, budget/style/colour/room constraints, and bounded search settings. The response contains feasible SKU configurations, deterministic placements, total price, objective scores, Pareto status, and compatibility evidence.
 
 ## Guardrails
 
 - No SKU is invented.
 - No missing catalogue fact is inferred.
-- Missing evidence is not converted into compatibility.
-- Search is bounded to avoid uncontrolled Cartesian-product growth.
-- Final physical validity must come from Engine 3/3.1.
+- Missing or unresolved required evidence causes rejection rather than an assumed PASS.
+- Search and placement are bounded to control computation.
+- Generated visualizations must consume these validated SKU/placement results; the image generator must not choose products or geometry.
