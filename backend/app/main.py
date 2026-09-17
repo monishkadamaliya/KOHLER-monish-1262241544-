@@ -4,6 +4,8 @@ from fastapi import Depends, FastAPI, HTTPException, Query
 from sqlalchemy.orm import Session
 
 from app.catalogue.repository import count_products, count_relationships, get_components, get_product, get_relationships, list_products
+from app.colour.schemas import PaletteRequest, PaletteResponse
+from app.colour.service import ColourIntelligenceService
 from app.constraints.schemas import ConstraintRequest, ConstraintResponse
 from app.constraints.service import validate_candidates
 from app.constraints.spatial import validate_spatial
@@ -22,8 +24,8 @@ from app.retrieval.service import CatalogueRetrievalService
 
 app = FastAPI(
     title="KOHLER AI Bathroom Intelligence API",
-    version="0.8.0",
-    description="Catalogue truth + retrieval + deterministic constraints/spatial validation + optimization + guarded Amazon Nova intent extraction.",
+    version="0.9.0",
+    description="Catalogue truth + retrieval + deterministic constraints/spatial validation + optimization + guarded Nova intent extraction + catalogue-grounded colour intelligence.",
 )
 
 
@@ -95,3 +97,8 @@ def optimize_configuration(request: ConfigurationSearchRequest, db: Session = De
 @app.post("/intelligence/parse-intent", response_model=IntentParseResponse)
 def parse_intent(request: IntentParseRequest) -> IntentParseResponse:
     return IntentService().parse(request)
+
+
+@app.post("/colour/palette", response_model=PaletteResponse)
+def colour_palette(request: PaletteRequest, db: Session = Depends(get_db)) -> PaletteResponse:
+    return ColourIntelligenceService(db).generate(request)
