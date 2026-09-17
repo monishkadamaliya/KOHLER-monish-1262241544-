@@ -1,0 +1,676 @@
+source_sku,relationship_type,target_sku,requirement,evidence,source_page,confidence,review_required
+K-5402IN-ZZ-0,included_component,K-76395IN-ZZ-0,included,Veil® wall hung intelligent toilet (K-76395IN-ZZ-0),6,high,true
+K-5402IN-ZZ-0,included_component,K-18647IN-NA,included,Hydro-tower 500 in-wall tank with frame (K-18647IN-NA),6,high,true
+K-5402IN-ZZ-0,requires,K-1549469,mandatory,External Pre-filter (K-1549469),6,high,true
+K-5401IN-0,requires,K-1549469,mandatory,External Pre-filter (K-1549469),6,high,true
+K-38519IN-0/K-28362IN-2-0,requires,K-1063956,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),6,high,false
+K-38519IN-0/K-28362IN-2-0,requires,K-1549469,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),6,high,true
+K-26995IN-2-0/K-28820IN-0,requires,K-1063956,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),6,high,false
+K-26995IN-2-0/K-28820IN-0,requires,K-1549469,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),6,high,true
+K-28786IN-0/K-4108IN-0,requires,K-1063956,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),6,high,false
+K-28786IN-0/K-4108IN-0,requires,K-1549469,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),6,high,true
+K-27792IN-0/K-32387IN-0,requires,K-1549469,mandatory,External Pre-filter (K-1549469),6,high,true
+K-31014IN-0/K-8297IN-0,requires,K-1063956,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),6,high,false
+K-31014IN-0/K-8297IN-0,requires,K-1549469,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),6,high,true
+K-28362IN-2-0,requires,K-1063956,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),7,high,false
+K-28362IN-2-0,requires,K-1549469,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),7,high,true
+K-28820IN-0,requires,K-1063956,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),7,high,false
+K-28820IN-0,requires,K-1549469,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),7,high,true
+K-4108IN-0,requires,K-1063956,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),7,high,false
+K-4108IN-0,requires,K-1549469,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),7,high,true
+K-32387IN-0,requires,K-1063956,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),7,high,false
+K-32387IN-0,requires,K-1549469,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),7,high,true
+K-8297IN-0,requires,K-1063956,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),7,high,false
+K-8297IN-0,requires,K-1549469,mandatory,Electronic Bidet Installation Kit (K-1063956) & External Pre-Filter (K-1549469),7,high,true
+K-29958IN-0,included_component,K-4187IN-WD-0,included,Patio™ wall hung (K-4187IN-WD-0 | 10614IN-0),8,high,true
+K-27791IN-WAF-0,included_component,K-27903IN-WAF-0,included,ModernLife Edge® decorative wall hung bowl only (K-27903IN-WAF-0),9,high,true
+K-27791IN-WAF-0,included_component,K-27904IN-SS-0,included,ModernLife Edge® Quiet-Close™ UF seat (K-27904IN-SS-0),9,high,true
+K-27791IN-WAF-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),9,high,false
+K-27791IN-WRGD-0,included_component,K-27903IN-WRGD-0,included,ModernLife Edge® decorative wall hung bowl only (K-27903IN-WRGD-0),9,high,true
+K-27791IN-WRGD-0,included_component,K-27904IN-SS-0,included,ModernLife Edge® Quiet-Close™ UF seat (K-27904IN-SS-0),9,high,true
+K-27791IN-WRGD-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),9,high,false
+K-27791IN-HL1,included_component,K-27903IN-2-HL1,included,ModernLife Edge® wall hung bowl w/o seat (K-27903IN-2-HL1),9,high,true
+K-27791IN-HL1,included_component,K-27904IN-HL1,included,ModernLife Edge® Quiet-Close™ UF seat (K-27904IN-HL1),9,high,true
+K-27791IN-HL1,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),9,high,false
+K-27791IN-HB1,included_component,K-27903IN-2-HB1,included,ModernLife Edge® wall hung bowl w/o seat (K-27903IN-2-HB1),10,high,true
+K-27791IN-HB1,included_component,K-27904IN-HB1,included,ModernLife Edge® Quiet-Close™ UF seat (K-27904IN-HB1),10,high,true
+K-27791IN-HB1,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),10,high,false
+K-27791IN-HP1,included_component,K-27903IN-2-HP1,included,ModernLife Edge® wall hung bowl w/o seat (K-27903IN-2-HP1),10,high,true
+K-27791IN-HP1,included_component,K-27904IN-HP1,included,ModernLife Edge® Quiet-Close™ UF seat (K-27904IN-HP1),10,high,true
+K-27791IN-HP1,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),10,high,false
+K-27791IN-0,included_component,K-27903IN-2SS-0,included,ModernLife Edge® wall hung bowl w/o seat (K-27903IN-2SS-0),10,high,true
+K-27791IN-0,included_component,K-27904IN-SS-0,included,ModernLife Edge® Quiet-Close™ UF seat (K-27904IN-SS-0),10,high,true
+K-27791IN-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),10,high,false
+K-75708IN-7,included_component,K-31539IN-7,included,Veil® wall hung rimless bowl in black (K-31539IN-7),10,high,true
+K-75708IN-7,included_component,K-77471IN-7,included,Veil® wall hung Quiet-Close™ UF seat in black (K-77471IN-7),10,high,true
+K-75708IN-7,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),10,high,false
+K-75708IN-SS-0,included_component,K-31539IN-SS-0,included,Veil® wall hung bowl only in white (K-31539IN-SS-0),10,high,true
+K-75708IN-SS-0,included_component,K-77070IN-SS-0,included,Veil® wall hung Quiet-Close™ UF seat in white (K-77070IN-SS-0),10,high,true
+K-75708IN-SS-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),10,high,false
+K-26994IN-HB1/K-26994IN-2-HB1,included_component,K-21748IN-HB1,included,Brazn® wall hung bowl w/o seat in honed black (K-21748IN-HB1/,10,high,true
+K-26994IN-HB1/K-26994IN-2-HB1,included_component,K-21128IN-HB1,included,Brazn® Quiet-Close™ round UF seat in honed black (K-21128IN-HB1),10,high,true
+K-26994IN-HB1/K-26994IN-2-HB1,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),10,high,false
+K-26994IN-0/K-26994IN-2-0,included_component,K-21128IN-0,included,Brazn® Quiet-Close™ round UF seat in white (K-21128IN-0),10,high,true
+K-26994IN-0/K-26994IN-2-0,included_component,K-21748IN-2-0,included,Brazn® wall hung toilet-round in white (K-21748IN-2-0/K-21748IN-0),10,high,true
+K-26994IN-0/K-26994IN-2-0,included_component,K-21748IN-0,included,Brazn® wall hung toilet-round in white (K-21748IN-2-0/K-21748IN-0),10,high,true
+K-26994IN-0/K-26994IN-2-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),10,high,false
+K-26998IN-TKB,included_component,K-28780IN-TKB,included,Vive® wall hung bowl w/o seat in teakberry (K-28780IN-TKB),10,high,true
+K-26998IN-TKB,included_component,K-28781IN-TKB,included,Vive® Quiet-Close™ UF slim seat in teakberry (K-28781IN-TKB),10,high,true
+K-26998IN-TKB,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),10,high,false
+K-38991IN-K4,included_component,K-28780IN-K4,included,Vive® wall hung bowl w/o seat in cashmere (K-28780IN-K4)                                   (incl of all taxes),10,high,true
+K-38991IN-K4,included_component,K-33818IN-K4,included,Vive® Quiet-Close™ round PP seat in cashmere (K-33818IN-K4),10,high,true
+K-38991IN-K4,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),10,high,false
+K-26998IN-7/K-28780IN-7,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),11,high,false
+K-26998IN-0,included_component,K-28780IN-0,included,Vive® wall hung bowl w/o seat in white (K-28780IN-0)                                      (incl of all taxes),11,high,true
+K-26998IN-0,included_component,K-28781IN-0,included,Vive® Quiet-Close™ UF slim seat in white (K-28781IN-0),11,high,true
+K-26998IN-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),11,high,false
+K-33677IN-0,included_component,K-33678IN-0,included,Ridge™ with REV360™ square wall hung bowl w/o seat (K-33678IN-0),11,high,true
+K-33677IN-0,included_component,K-41652IN-0,included,Ridge™ with REV360™ Quiet-Close™ square UF seat (K-41652IN-0),11,high,true
+K-33677IN-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),11,high,false
+K-28922IN-S-7,included_component,K-28921IN-0,included,Spacity wall hung toilet w/o seat (K-28921IN-0),12,high,true
+K-28922IN-S-7,included_component,K-28924IN-0,included,Spacity Quiet-Close™ slim seat (K-28924IN-0 ),12,high,true
+K-28922IN-S-7,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),12,high,false
+K-28922IN-S-0,included_component,K-28921IN-0,included,Spacity wall hung toilet w/o seat (K-28921IN-0),12,high,true
+K-28922IN-S-0,included_component,K-28924IN-0,included,Spacity Quiet-Close™ slim seat (K-28924IN-0),12,high,true
+K-28922IN-S-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),12,high,false
+K-38989IN-K4,included_component,K-20218IN-K4,included,Trace® wall hung bowl w/o seat in cashmere (K-20218IN-K4),12,high,true
+K-38989IN-K4,included_component,K-33819IN-K4,included,Trace™ Quiet-Close™ round PP seat in cashmere (K-33819IN-K4),12,high,true
+K-38989IN-K4,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),12,high,false
+K-20217IN-S-7,included_component,K-20218IN-7,included,Trace® wall hung bowl w/o seat in black (K-20218IN-7),12,high,true
+K-20217IN-S-7,included_component,K-20219IN-UF-7,included,Trace™ Quiet-Close™ round UF seat in black (K-20219IN-UF-7),12,high,true
+K-20217IN-S-7,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),12,high,false
+K-20217IN-S-0,included_component,K-20218IN-0,included,Trace® wall hung bowl w/o seat (K-20218IN-0),12,high,true
+K-20217IN-S-0,included_component,K-20219IN-UF-0,included,Trace™ Quiet-Close™ round UF seat (K-20219IN-UF-0),12,high,true
+K-20217IN-S-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),12,high,false
+K-32410IN-K4,included_component,K-32427IN-K4,included,APT™ square wall hung bowl w/o seat (K-32427IN-K4),12,high,true
+K-32410IN-K4,included_component,K-32407IN-K4,included,APT™ square PP seat (K-32407IN-K4),12,high,true
+K-32410IN-K4,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),12,high,false
+K-32409IN-7,included_component,K-32427IN-7,included,APT™ square wall hung bowl w/o seat (K-32427IN-7),12,high,true
+K-32409IN-7,included_component,K-32407IN-7,included,Brink/APT™ square UF seat (K-32407IN-7),12,high,true
+K-32409IN-7,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),12,high,false
+K-32409IN-0,included_component,K-33679IN-0,included,Brink/APT™ square UF seat (K-33679IN-0),12,high,true
+K-32409IN-0,included_component,K-32427IN-0,included,APT™ square wall hung bowl w/o seat (K-32427IN-0),12,high,true
+K-32409IN-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),12,high,false
+K-29150IN-K4,included_component,K-29278IN-K4,included,APT™ round wall hung bowl w/o seat (K-29278IN-K4),12,high,true
+K-29150IN-K4,included_component,K-29277IN-K4,included,APT™ round PP seat (K-29277IN-K4),12,high,true
+K-29150IN-K4,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),12,high,false
+K-30306IN-7,included_component,K-29278IN-7,included,APT™ round wall hung bowl w/o seat (K-29278IN-7),13,high,true
+K-30306IN-7,included_component,K-30111IN-7,included,APT™ round UF seat (K-30111IN-7),13,high,true
+K-30306IN-7,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),13,high,false
+K-30306IN-0,included_component,K-30111IN-0,included,APT™ round UF seat (K-30111IN-0),13,high,true
+K-30306IN-0,included_component,K-29278IN-0,included,APT™ round wall hung bowl w/o seat (K-29278IN-0),13,high,true
+K-30306IN-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),13,high,false
+K-28778IN-0,included_component,K-29172IN-0,included,Span-square wall hung bowl (K-29172IN-0)                                               (incl of all taxes),13,high,true
+K-28778IN-0,included_component,K-8196IN-0,included,Pureclean™ Quiet-Close™ square-front bidet toilet seat (K-8196IN-0),13,high,false
+K-28778IN-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),13,high,false
+K-29174IN-S-0,included_component,K-29172IN-0,included,Span-square wall hung bowl (K-29172IN-0)                                               (incl of all taxes),13,high,true
+K-29174IN-S-0,included_component,K-29173IN-0,included,Span-square Quiet-Close™ seat (K-29173IN-0),13,high,true
+K-29174IN-S-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),13,high,false
+K-18131IN-S-0,included_component,K-4187IN-WD-0,included,Patio™ wallhung bowl w/flush diverter (K-4187IN-WD-0),13,high,true
+K-18131IN-S-0,included_component,K-10614IN-0,included,Patio™ Quiet-Close™ toilet seat (K-10614IN-0),13,high,true
+K-18131IN-S-0,requires,K-1527926,mandatory,Plastic outlet connector (K-1527926),13,high,false
+K-2749T-1-0,requires,K-75823IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain with overflow hole (K-45432IN-CP)",34,high,false
+K-2749T-1-0,requires,K-45432IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain with overflow hole (K-45432IN-CP)",34,high,false
+K-28782IN-0,requires,K-32485IN-NA,mandatory,K-32485IN-NA drain and K-75823IN-CP bottle trap 350mm,34,high,true
+K-28782IN-0,requires,K-75823IN-CP,mandatory,K-32485IN-NA drain and K-75823IN-CP bottle trap 350mm,34,high,false
+K-30686IN-0,requires,K-30685IN-CP,mandatory,"Bottle trap assembly for Sveda (K-30685IN-CP), hidden drain (K-32485IN-NA)",34,high,false
+K-30686IN-0,requires,K-32485IN-NA,mandatory,"Bottle trap assembly for Sveda (K-30685IN-CP), hidden drain (K-32485IN-NA)",34,high,true
+K-20705-0,requires,K-7120IN-CP,mandatory,Clicker drain (K-7120IN-CP),34,high,false
+K-20703-0,requires,K-7124-A-CP,mandatory,Clicker Drain (K-7124-A-CP),34,high,true
+K-20704-0,requires,K-7120IN-CP,mandatory,Clicker drain (K-7120IN-CP),34,high,false
+K-75375IN-0,requires,K-75823IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (20746IN-CP/24740IN-0)",34,high,false
+K-21226IN-WAF-0,requires,K-75823IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid Drain (K-20746IN-CP)",34,high,false
+K-21226IN-WAF-0,requires,K-20746IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid Drain (K-20746IN-CP)",34,high,false
+K-21226IN-WRGD-0,requires,K-75823IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid Drain (K-20746IN-CP)",34,high,false
+K-21226IN-WRGD-0,requires,K-20746IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid Drain (K-20746IN-CP)",34,high,false
+K-21226IN-HL1,requires,K-75823IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-20746IN-CP)",34,high,false
+K-21226IN-HL1,requires,K-20746IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-20746IN-CP)",34,high,false
+K-21226IN-HB1,requires,K-75823IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-20746IN-CP)",35,high,false
+K-21226IN-HB1,requires,K-20746IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-20746IN-CP)",35,high,false
+K-21226IN-HP1,requires,K-75823IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-20746IN-CP)",35,high,false
+K-21226IN-HP1,requires,K-20746IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-20746IN-CP)",35,high,false
+K-21226IN-SS-0,requires,K-24740IN-0,mandatory,K-24740IN-0 and K-75823IN-CP drain and bottle trap 350mm,35,high,false
+K-21226IN-SS-0,requires,K-75823IN-CP,mandatory,K-24740IN-0 and K-75823IN-CP drain and bottle trap 350mm,35,high,false
+K-30109IN-HP1,requires,K-32485IN-NA,mandatory,K-32485IN-NA hidden drain & Bottle trap assembly,35,high,true
+K-30109IN-0,requires,K-32485IN-NA,mandatory,K-32485IN-NA hidden drain and bottle trap assembly,35,high,true
+K-31343IN-SS-0,requires,K-75823IN-CP,mandatory,K-75823IN-CP bottle trap,35,high,false
+K-21060IN-HB1,requires,K-75823IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-45432IN-CP)",35,high,false
+K-21060IN-HB1,requires,K-45432IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-45432IN-CP)",35,high,false
+K-21060IN-0,requires,K-75823IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-45432IN-CP)",35,high,false
+K-21060IN-0,requires,K-45432IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-45432IN-CP)",35,high,false
+K-77171IN-7,requires,K-24740IN-7,mandatory,"Ceramic drain, without overflow (K-24740IN-7)",35,high,false
+K-77171IN-0,requires,K-24740IN-0,mandatory,"Ceramic drain, without overflow (K-24740IN-0)",35,high,false
+K-75376IN-1-0,requires,K-24740IN-0,mandatory,"Ceramic drain w/o overflow (K-24740IN-0), Grid drain (K-20746IN-CP/K-24740IN-0)",35,high,false
+K-75376IN-1-0,requires,K-20746IN-CP,mandatory,"Ceramic drain w/o overflow (K-24740IN-0), Grid drain (K-20746IN-CP/K-24740IN-0)",35,high,false
+K-90011T-0,requires,K-20746IN-CP,mandatory,Grid drain (K-20746IN-CP/K-24740IN-0),35,high,false
+K-90011T-0,requires,K-24740IN-0,mandatory,Grid drain (K-20746IN-CP/K-24740IN-0),35,high,false
+K-90012T-0,requires,K-20746IN-CP,mandatory,Grid drain (K-20746IN-CP/K-24740IN-0),36,high,false
+K-90012T-0,requires,K-24740IN-0,mandatory,Grid drain (K-20746IN-CP/K-24740IN-0),36,high,false
+K-5373IN-7,requires,K-75823IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-45432IN-CP)",36,high,false
+K-5373IN-7,requires,K-45432IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-45432IN-CP)",36,high,false
+K-5373IN-K4,requires,K-75823IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-45432IN-CP)",36,high,false
+K-5373IN-K4,requires,K-45432IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-45432IN-CP)",36,high,false
+K-5373IN-0,requires,K-75823IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-45432IN-CP)",36,high,false
+K-5373IN-0,requires,K-45432IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-45432IN-CP)",36,high,false
+K-2660IN-1-7,requires,K-75823IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP/AF/BN/BV/RGD), Grid drain (K-45432IN-CP)",36,high,false
+K-2660IN-1-7,requires,K-75823IN-AF,mandatory,"Bottle trap 350mm (K-75823IN-CP/AF/BN/BV/RGD), Grid drain (K-45432IN-CP)",36,high,false
+K-2660IN-1-7,requires,K-75823IN-BN,mandatory,"Bottle trap 350mm (K-75823IN-CP/AF/BN/BV/RGD), Grid drain (K-45432IN-CP)",36,high,true
+K-2660IN-1-7,requires,K-75823IN-BV,mandatory,"Bottle trap 350mm (K-75823IN-CP/AF/BN/BV/RGD), Grid drain (K-45432IN-CP)",36,high,false
+K-2660IN-1-7,requires,K-75823IN-RGD,mandatory,"Bottle trap 350mm (K-75823IN-CP/AF/BN/BV/RGD), Grid drain (K-45432IN-CP)",36,high,false
+K-2660IN-1-7,requires,K-45432IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP/AF/BN/BV/RGD), Grid drain (K-45432IN-CP)",36,high,false
+K-2660IN-1-0,requires,K-75823IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-45432IN-CP)",36,high,false
+K-2660IN-1-0,requires,K-45432IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-45432IN-CP)",36,high,false
+K-2661IN-7,requires,K-75823IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-45432IN-CP)",36,high,false
+K-2661IN-7,requires,K-45432IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-45432IN-CP)",36,high,false
+K-2661IN-K4,requires,K-75823IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-45432IN-CP)",36,high,false
+K-2661IN-K4,requires,K-45432IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-45432IN-CP)",36,high,false
+K-2661IN-0,requires,K-75823IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-45432IN-CP)",36,high,false
+K-2661IN-0,requires,K-45432IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-45432IN-CP)",36,high,false
+K-75374IN-1-0,requires,K-20746IN-CP,mandatory,K-20746IN-CP Grid drain and K-75823IN-CP bottle trap 350mm,36,high,false
+K-75374IN-1-0,requires,K-75823IN-CP,mandatory,K-20746IN-CP Grid drain and K-75823IN-CP bottle trap 350mm,36,high,false
+K-26270IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),36,high,false
+K-26249IN-0,requires,K-75823IN-CP,mandatory,"Bottle trap (K-75823IN-CP), Grid drain (K-20746IN-CP/K-24740IN-0)",37,high,false
+K-26249IN-0,requires,K-20746IN-CP,mandatory,"Bottle trap (K-75823IN-CP), Grid drain (K-20746IN-CP/K-24740IN-0)",37,high,false
+K-26249IN-0,requires,K-24740IN-0,mandatory,"Bottle trap (K-75823IN-CP), Grid drain (K-20746IN-CP/K-24740IN-0)",37,high,false
+K-28784IN-K4,requires,K-75823IN-CP,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,37,high,false
+K-28784IN-K4,requires,K-32485IN-NA,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,37,high,true
+K-28784IN-7,requires,K-75823IN-CP,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,37,high,false
+K-28784IN-7,requires,K-32485IN-NA,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,37,high,true
+K-28784IN-TKB,requires,K-75823IN-CP,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,37,high,false
+K-28784IN-TKB,requires,K-32485IN-NA,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,37,high,true
+K-28784IN-0,requires,K-75823IN-CP,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,37,high,false
+K-28784IN-0,requires,K-32485IN-NA,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,37,high,true
+K-28783IN-TKB,requires,K-75823IN-CP,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,38,high,false
+K-28783IN-TKB,requires,K-32485IN-NA,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,38,high,true
+K-28783IN-K4,requires,K-75823IN-CP,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,38,high,false
+K-28783IN-K4,requires,K-32485IN-NA,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,38,high,true
+K-28783IN-7,requires,K-75823IN-CP,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,38,high,false
+K-28783IN-7,requires,K-32485IN-NA,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,38,high,true
+K-28783IN-0,requires,K-75823IN-CP,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,38,high,false
+K-28783IN-0,requires,K-32485IN-NA,mandatory,K-75823IN-CP Bottle trap 350mm and K-32485IN-NA Drain,38,high,true
+K-76601IN-7,requires,K-20746IN-CP,mandatory,K-20746IN-CP/AF/RGD/BV/BL drain and K-75823IN-CP/AF/BV/RGD bottle trap 350mm,38,high,false
+K-76601IN-7,requires,K-20746IN-AF,mandatory,K-20746IN-CP/AF/RGD/BV/BL drain and K-75823IN-CP/AF/BV/RGD bottle trap 350mm,38,high,false
+K-76601IN-7,requires,K-20746IN-RGD,mandatory,K-20746IN-CP/AF/RGD/BV/BL drain and K-75823IN-CP/AF/BV/RGD bottle trap 350mm,38,high,false
+K-76601IN-7,requires,K-20746IN-BV,mandatory,K-20746IN-CP/AF/RGD/BV/BL drain and K-75823IN-CP/AF/BV/RGD bottle trap 350mm,38,high,false
+K-76601IN-7,requires,K-20746IN-BL,mandatory,K-20746IN-CP/AF/RGD/BV/BL drain and K-75823IN-CP/AF/BV/RGD bottle trap 350mm,38,high,false
+K-76601IN-7,requires,K-75823IN-CP,mandatory,K-20746IN-CP/AF/RGD/BV/BL drain and K-75823IN-CP/AF/BV/RGD bottle trap 350mm,38,high,false
+K-76601IN-7,requires,K-75823IN-AF,mandatory,K-20746IN-CP/AF/RGD/BV/BL drain and K-75823IN-CP/AF/BV/RGD bottle trap 350mm,38,high,false
+K-76601IN-7,requires,K-75823IN-BV,mandatory,K-20746IN-CP/AF/RGD/BV/BL drain and K-75823IN-CP/AF/BV/RGD bottle trap 350mm,38,high,false
+K-76601IN-7,requires,K-75823IN-RGD,mandatory,K-20746IN-CP/AF/RGD/BV/BL drain and K-75823IN-CP/AF/BV/RGD bottle trap 350mm,38,high,false
+K-76601IN-K4,requires,K-24740IN-K4,mandatory,K-24740IN-K4 Drain and K-75823IN-CP/AF/BV/RGD and bottle trap 350mm,38,high,false
+K-76601IN-K4,requires,K-75823IN-CP,mandatory,K-24740IN-K4 Drain and K-75823IN-CP/AF/BV/RGD and bottle trap 350mm,38,high,false
+K-76601IN-K4,requires,K-75823IN-AF,mandatory,K-24740IN-K4 Drain and K-75823IN-CP/AF/BV/RGD and bottle trap 350mm,38,high,false
+K-76601IN-K4,requires,K-75823IN-BV,mandatory,K-24740IN-K4 Drain and K-75823IN-CP/AF/BV/RGD and bottle trap 350mm,38,high,false
+K-76601IN-K4,requires,K-75823IN-RGD,mandatory,K-24740IN-K4 Drain and K-75823IN-CP/AF/BV/RGD and bottle trap 350mm,38,high,false
+K-76601IN-0,requires,K-24740IN-0,mandatory,K-24740IN-0 and K-75823IN-CP drain and bottle trap 350mm,38,high,false
+K-76601IN-0,requires,K-75823IN-CP,mandatory,K-24740IN-0 and K-75823IN-CP drain and bottle trap 350mm,38,high,false
+K-76600IN-0,requires,K-24740IN-0,mandatory,K-24740IN-0 Drain and K-75823IN-NA and bottle trap 350mm,38,high,false
+K-76600IN-0,requires,K-75823IN-NA,mandatory,K-24740IN-0 Drain and K-75823IN-NA and bottle trap 350mm,38,high,true
+K-29024IN-1-0,requires,K-75823IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-20746IN-CP/24740IN-0)",38,high,false
+K-29024IN-1-0,requires,K-20746IN-CP,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-20746IN-CP/24740IN-0)",38,high,false
+K-29024IN-1-0,requires,K-24740IN-0,mandatory,"K-75823IN-CP bottle trap 350mm, Grid drain (K-20746IN-CP/24740IN-0)",38,high,false
+K-38520IN-K4,requires,K-75823IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,38,high,false
+K-38520IN-K4,requires,K-20746IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,38,high,false
+K-38520IN-7,requires,K-75823IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,39,high,false
+K-38520IN-7,requires,K-20746IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,39,high,false
+K-38520IN-0,requires,K-75823IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,39,high,false
+K-38520IN-0,requires,K-20746IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,39,high,false
+K-34251IN-0,requires,K-75823IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,39,high,false
+K-34251IN-0,requires,K-20746IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,39,high,false
+K-25316IN-0,requires,K-20746IN-CP,mandatory,Grid drain (K-20746IN-CP/K-24740IN-0),39,high,false
+K-25316IN-0,requires,K-24740IN-0,mandatory,Grid drain (K-20746IN-CP/K-24740IN-0),39,high,false
+K-31459IN-0,requires,K-75823IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-20746IN-CP/K-24740IN-0)",39,high,false
+K-31459IN-0,requires,K-20746IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-20746IN-CP/K-24740IN-0)",39,high,false
+K-31459IN-0,requires,K-24740IN-0,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-20746IN-CP/K-24740IN-0)",39,high,false
+K-25318IN-0,requires,K-20746IN-CP,mandatory,Grid drain (K-20746IN-CP/K-24740IN-0),39,high,false
+K-25318IN-0,requires,K-24740IN-0,mandatory,Grid drain (K-20746IN-CP/K-24740IN-0),39,high,false
+K-2200IN-7,requires,K-75823IN-CP,mandatory,"K-75823IN-CP/AF/BV/RGD bottle trap 350mm, Grid drain (K-20746IN-CP/24740IN-7)",39,high,false
+K-2200IN-7,requires,K-75823IN-AF,mandatory,"K-75823IN-CP/AF/BV/RGD bottle trap 350mm, Grid drain (K-20746IN-CP/24740IN-7)",39,high,false
+K-2200IN-7,requires,K-75823IN-BV,mandatory,"K-75823IN-CP/AF/BV/RGD bottle trap 350mm, Grid drain (K-20746IN-CP/24740IN-7)",39,high,false
+K-2200IN-7,requires,K-75823IN-RGD,mandatory,"K-75823IN-CP/AF/BV/RGD bottle trap 350mm, Grid drain (K-20746IN-CP/24740IN-7)",39,high,false
+K-2200IN-7,requires,K-20746IN-CP,mandatory,"K-75823IN-CP/AF/BV/RGD bottle trap 350mm, Grid drain (K-20746IN-CP/24740IN-7)",39,high,false
+K-2200IN-7,requires,K-24740IN-7,mandatory,"K-75823IN-CP/AF/BV/RGD bottle trap 350mm, Grid drain (K-20746IN-CP/24740IN-7)",39,high,false
+K-2200IN-K4,requires,K-75823IN-CP,mandatory,"K-75823IN-CP/AF/BN/BV/RGD bottle trap 350mm , Grid drain (K-20746IN-CP/K-24740IN-K4)",39,high,false
+K-2200IN-K4,requires,K-75823IN-AF,mandatory,"K-75823IN-CP/AF/BN/BV/RGD bottle trap 350mm , Grid drain (K-20746IN-CP/K-24740IN-K4)",39,high,false
+K-2200IN-K4,requires,K-75823IN-BN,mandatory,"K-75823IN-CP/AF/BN/BV/RGD bottle trap 350mm , Grid drain (K-20746IN-CP/K-24740IN-K4)",39,high,true
+K-2200IN-K4,requires,K-75823IN-BV,mandatory,"K-75823IN-CP/AF/BN/BV/RGD bottle trap 350mm , Grid drain (K-20746IN-CP/K-24740IN-K4)",39,high,false
+K-2200IN-K4,requires,K-75823IN-RGD,mandatory,"K-75823IN-CP/AF/BN/BV/RGD bottle trap 350mm , Grid drain (K-20746IN-CP/K-24740IN-K4)",39,high,false
+K-2200IN-K4,requires,K-20746IN-CP,mandatory,"K-75823IN-CP/AF/BN/BV/RGD bottle trap 350mm , Grid drain (K-20746IN-CP/K-24740IN-K4)",39,high,false
+K-2200IN-K4,requires,K-24740IN-K4,mandatory,"K-75823IN-CP/AF/BN/BV/RGD bottle trap 350mm , Grid drain (K-20746IN-CP/K-24740IN-K4)",39,high,false
+K-2200IN-0,requires,K-75823IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-20746IN-CP/K-24740IN-0)",39,high,false
+K-2200IN-0,requires,K-20746IN-CP,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-20746IN-CP/K-24740IN-0)",39,high,false
+K-2200IN-0,requires,K-24740IN-0,mandatory,"Bottle trap 350mm (K-75823IN-CP), Grid drain (K-20746IN-CP/K-24740IN-0)",39,high,false
+K-11479IN-VC1-0,requires,K-75823IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,39,high,false
+K-11479IN-VC1-0,requires,K-20746IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,39,high,false
+K-98930X-1-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),39,high,false
+K-20701-0,requires,K-7120IN-CP,mandatory,K-7120IN-CP/K-75823IN-CP/K-1286731,41,high,false
+K-20701-0,requires,K-75823IN-CP,mandatory,K-7120IN-CP/K-75823IN-CP/K-1286731,41,high,false
+K-20701-0,requires,K-1286731,mandatory,K-7120IN-CP/K-75823IN-CP/K-1286731,41,high,true
+K-30520IN-0/K-8705IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),41,high,false
+K-8700IN-1-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),41,high,false
+K-30520IN-0/K-5584IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),41,high,false
+K-24558IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),41,high,false
+K-24563IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),41,high,false
+K-24560IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),41,high,false
+K-96051IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),42,high,false
+K-2241IN-1-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),42,high,false
+K-2075IN-1-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),42,high,false
+K-2215IN-2-7,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),42,high,false
+K-2215IN-2-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),42,high,false
+K-2214IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),42,high,false
+K-2883IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),42,high,false
+K-2211IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),42,high,false
+K-2210IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),42,high,false
+K-30520IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),43,high,false
+K-34229IN-0,requires,K-75823IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,43,high,false
+K-34229IN-0,requires,K-20746IN-CP,mandatory,K-75823IN-CP and K-20746IN-CP drain and bottle trap 350mm,43,high,false
+K-25317IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),43,high,false
+K-31461IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),43,high,false
+K-31460IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),43,high,false
+K-31458IN-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),43,high,false
+K-2018IN-1WH-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),43,high,false
+K-8703IN-1WH-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),43,high,false
+K-5583IN-1WH-0,requires,K-45432IN-CP,mandatory,Grid drain (K-45432IN-CP),43,high,false
+K-25759IN-4ND-CP,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",46,high,false
+K-25761IN-9-CP,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",46,high,false
+K-23486IN-4ND-CP,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",47,high,false
+K-23497IN-4-CP,requires,K-99924IN-CP,mandatory,"Trim only, for use with valve K-99924IN-CP",47,high,false
+K-23496IN-4-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",47,high,false
+K-5684IN-4ND-CP,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",48,high,false
+K-77311IN-4FP-CP,requires,K-99924IN-CP,mandatory,"Trim only, for use with valve K-99924IN-CP",48,high,false
+K-72328IN-4FP-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",48,high,false
+K-5683IN-4ND-CP,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",48,high,false
+K-77310IN-4FP-CP,requires,K-99924IN-CP,mandatory,"Trim only, for use with valve K-99924IN-CP",48,high,false
+K-72290IN-4FP-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",48,high,false
+K-38896IN-4FP-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",49,high,false
+K-38897IN-4FP-CP,requires,K-99924IN-CP,mandatory,"Trim only, for use with valve K-99924IN-CP",49,high,false
+K-38889IN-4FP-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",49,high,false
+K-38890IN-4FP-CP,requires,K-99924IN-CP,mandatory,"Trim only, for use with valve K-99924IN-CP",49,high,false
+K-23971IN-4FP-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",50,high,false
+K-22540IN-4AND-CP,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",50,high,false
+K-38938IN-4FP-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",50,high,false
+K-38939IN-4FP-CP,requires,K-75201IN-CP,mandatory,"Trim only, for use with valve K-75201IN-CP",50,high,false
+K-38464IN-4ND-CP,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",52,high,false
+K-38469IN-4FP-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",52,high,false
+K-38468IN-4FP-CP,requires,K-75201IN-CP,mandatory,"Trim only, for use with valve K-75201IN-CP",52,high,false
+K-26791IN-4ND-CP,requires,K-25150IN-NA,mandatory,"Trim only, for use with valve K-25150IN-NA",52,high,false
+K-33103IN-4ND-CP,requires,K-25149IN-NA,mandatory,"Trim only, for use with valve K-25149IN-NA",52,high,false
+K-33111IN-4FP-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",53,high,false
+K-27483IN-4ND-CP,requires,K-25150IN-NA,mandatory,"Trim only, for use with valve K-25150IN-NA",53,high,false
+K-27489IN-4ND-CP,requires,K-25149IN-NA,mandatory,"Trim only, for use with valve K-25149IN-NA",53,high,false
+K-27500IN-4FP-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",53,high,false
+K-27482IN-4ND-CP,requires,K-25150IN-NA,mandatory,"Trim only, for use with valve K-25150IN-NA",54,high,false
+K-27488IN-4ND-CP,requires,K-25149IN-NA,mandatory,"Trim only, for use with valve K-25149IN-NA",54,high,false
+K-27499IN-4FP-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",54,high,false
+K-27481IN-4ND-CP,requires,K-25150IN-NA,mandatory,"Trim only, for use with valve K-25150IN-NA",54,high,false
+K-27487IN-4ND-CP,requires,K-25149IN-NA,mandatory,"Trim only, for use with valve K-25149IN-NA",54,high,false
+K-27498IN-4FP-CP,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",54,high,false
+K-34039IN-4ND-CP,requires,K-25150IN-NA,mandatory,"Trim only, for use with valve K-25150IN-NA",55,high,false
+K-33992IN-4FP-CP,requires,K-75201IN-CP,mandatory,"Trim only, for use with valve K-75201IN-CP",55,high,false
+K-34076IN-4ND-CP,requires,K-25150IN-NA,mandatory,"Trim only, for use with valve K-25150IN-NA",55,high,false
+K-33645IN-4FP-CP,requires,K-75201IN-CP,mandatory,"Trim only, for use with valve K-75201IN-CP",55,high,false
+K-9301IN-CL-CP,requires,K-16347IN-CP,mandatory,Ceiling mount shower arm K-16347IN-CP/K-11623IN-CP/Square ceiling arm K-20137IN-CP,58,high,false
+K-9301IN-CL-CP,requires,K-11623IN-CP,mandatory,Ceiling mount shower arm K-16347IN-CP/K-11623IN-CP/Square ceiling arm K-20137IN-CP,58,high,false
+K-9301IN-CL-CP,requires,K-20137IN-CP,mandatory,Ceiling mount shower arm K-16347IN-CP/K-11623IN-CP/Square ceiling arm K-20137IN-CP,58,high,false
+K-26297IN-CP,requires,K-26324IN-CP,mandatory,"Statement™ wall mount dual flow shower arm: K-26324IN-CP, Ceiling mount dual flow arm K-26326T-CP",58,high,false
+K-26297IN-CP,requires,K-26326T-CP,mandatory,"Statement™ wall mount dual flow shower arm: K-26324IN-CP, Ceiling mount dual flow arm K-26326T-CP",58,high,false
+K-9302IN-CL-CP,requires,K-16347IN-CP,mandatory,Ceiling-mount shower arm in polished chrome (K-16347IN-CP/K-11623IN-CP)/square arm K-20137IN-CP,58,high,false
+K-9302IN-CL-CP,requires,K-11623IN-CP,mandatory,Ceiling-mount shower arm in polished chrome (K-16347IN-CP/K-11623IN-CP)/square arm K-20137IN-CP,58,high,false
+K-9302IN-CL-CP,requires,K-20137IN-CP,mandatory,Ceiling-mount shower arm in polished chrome (K-16347IN-CP/K-11623IN-CP)/square arm K-20137IN-CP,58,high,false
+K-26296IN-CP,requires,K-26324IN-CP,mandatory,"Statement™ wall mount dual flow shower arm: K-26324IN-CP, Ceiling mount dual flow arm K-26326T-CP",58,high,false
+K-26296IN-CP,requires,K-26326T-CP,mandatory,"Statement™ wall mount dual flow shower arm: K-26324IN-CP, Ceiling mount dual flow arm K-26326T-CP",58,high,false
+K-24470IN-CP,requires,K-22308IN-CP,mandatory,ModernLife™ wall mount shower arm-multifunction (K-22308IN-CP) / ModernLife™ ceiling mount,58,high,false
+K-26294IN-CP,requires,K-16346IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/ K-16347IN-CP),58,high,false
+K-26294IN-CP,requires,K-16347IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/ K-16347IN-CP),58,high,false
+K-38629IN-CP,requires,K-26324IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-26324IN-CP/K-26326T-CP),59,high,false
+K-38629IN-CP,requires,K-26326T-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-26324IN-CP/K-26326T-CP),59,high,false
+K-27731IN-CP,requires,K-16346IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/ K-16347IN-CP/K-11623IN-CP),59,high,false
+K-27731IN-CP,requires,K-16347IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/ K-16347IN-CP/K-11623IN-CP),59,high,false
+K-27731IN-CP,requires,K-11623IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/ K-16347IN-CP/K-11623IN-CP),59,high,false
+K-26856IN-CP,requires,K-16346IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/K-16347IN-CP),59,high,false
+K-26856IN-CP,requires,K-16347IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/K-16347IN-CP),59,high,false
+K-26855IN-CP,requires,K-16346IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/K-16347IN-CP),59,high,false
+K-26855IN-CP,requires,K-16347IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/K-16347IN-CP),59,high,false
+K-26854IN-CP,requires,K-16346IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/K-16347IN-CP),59,high,false
+K-26854IN-CP,requires,K-16347IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/K-16347IN-CP),59,high,false
+K-73040IN-CL-CP,requires,K-20138IN-CP,mandatory,Wall/ceiling-mount square shower arm in polished chrome (K-20138IN-CP/K-20137IN-CP),59,high,false
+K-73040IN-CL-CP,requires,K-20137IN-CP,mandatory,Wall/ceiling-mount square shower arm in polished chrome (K-20138IN-CP/K-20137IN-CP),59,high,false
+K-73039IN-CL-CP,requires,K-16346IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/ K-16347IN-CP/K-11623IN-CP),59,high,false
+K-73039IN-CL-CP,requires,K-16347IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/ K-16347IN-CP/K-11623IN-CP),59,high,false
+K-73039IN-CL-CP,requires,K-11623IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/ K-16347IN-CP/K-11623IN-CP),59,high,false
+K-38973IN-CP,requires,K-16346IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/K-16347IN-CP),59,high,false
+K-38973IN-CP,requires,K-16347IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/K-16347IN-CP),59,high,false
+K-39507IN-CP,requires,K-16346IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/K-16347IN-CP),59,high,false
+K-39507IN-CP,requires,K-16347IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/K-16347IN-CP),59,high,false
+K-73038IN-CL-CP,requires,K-20138IN-CP,mandatory,Wall/ceiling-mount square shower arm in polished chrome (K-20138IN-CP/K-20137IN-CP),59,high,false
+K-73038IN-CL-CP,requires,K-20137IN-CP,mandatory,Wall/ceiling-mount square shower arm in polished chrome (K-20138IN-CP/K-20137IN-CP),59,high,false
+K-73037IN-CL-CP,requires,K-16346IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/ K-16347IN-CP/K-11623IN-CP),59,high,false
+K-73037IN-CL-CP,requires,K-16347IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/ K-16347IN-CP/K-11623IN-CP),59,high,false
+K-73037IN-CL-CP,requires,K-11623IN-CP,mandatory,Wall/ceiling-mount shower arm in polished chrome (K-16346IN-CP/ K-16347IN-CP/K-11623IN-CP),59,high,false
+K-26290IN-CP,requires,K-26318IN-CP,mandatory,Wall mount shower arm K-26318IN-CP,59,high,false
+K-38972IN-CP,requires,K-99054IN-CP,mandatory,Wall mount shower arm K-99054IN-CP,59,high,false
+K-72425IN-CP,requires,K-99054IN-CP,mandatory,Wall mount shower arm K-99054IN-CP,60,high,false
+K-39505IN-CP,requires,K-99054IN-CP,mandatory,Wall mount shower arm K-99054IN-CP,60,high,false
+K-36211IN-CP,requires,K-99054IN-CP,mandatory,Wall mount shower arm K-99054IN-CP,60,high,false
+K-34050IN-CP,requires,K-99054IN-CP,mandatory,Wall mount shower arm K-99054IN-CP,60,high,false
+K-34042IN-CP,requires,K-99054IN-CP,mandatory,Wall mount shower arm K-99054IN-CP,60,high,false
+K-28694IN-CP,requires,K-9038IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),61,high,false
+K-28694IN-CP,requires,K-9040IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),61,high,false
+K-28695IN-CP,requires,K-9038IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),61,high,false
+K-28695IN-CP,requires,K-9040IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),61,high,false
+K-97009IN-CP,requires,K-12067IN-CP,mandatory,"Flexible hose (K-12067IN-CP/K-831727-U-CP), hand shower bracket in polished chrome",61,high,false
+K-97009IN-CP,requires,K-831727-U-CP,mandatory,"Flexible hose (K-12067IN-CP/K-831727-U-CP), hand shower bracket in polished chrome",61,high,true
+K-39502IN-CP,requires,K-12067IN-CP,mandatory,"Flexible hose (K-12067IN-CP/K-831727-U-CP), hand shower bracket in polished chrome",61,high,false
+K-39502IN-CP,requires,K-831727-U-CP,mandatory,"Flexible hose (K-12067IN-CP/K-831727-U-CP), hand shower bracket in polished chrome",61,high,true
+K-72421IN-CP,requires,K-9038IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),61,high,false
+K-72421IN-CP,requires,K-9040IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),61,high,false
+K-98445IN-CP,requires,K-9038IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),61,high,false
+K-98445IN-CP,requires,K-9040IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),61,high,false
+K-98444IN-CP,requires,K-9038IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),62,high,false
+K-98444IN-CP,requires,K-9040IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),62,high,false
+K-16359IN-A-CP,requires,K-9038IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),62,high,false
+K-16359IN-A-CP,requires,K-9040IN-CP,mandatory,Hand shower bracket in polished chrome (K-9038IN-CP/K-9040IN-CP),62,high,false
+K-30318IN-CP,requires,K-30319IN-NA,mandatory,"Anthem+ Digital Control 28214-ASC-BL, Audio amplifier with bluetooth (K-30319IN-NA)",62,high,false
+K-30319IN-NA,requires,K-30318IN-CP,mandatory,"Anthem+ Digital Control 28214-ASC-BL, Soundtile® speakers - pair in polished chrome (K-30318IN-CP)",62,high,false
+K-28212IN-NA,requires,K-28214-BL,mandatory,Digital control 2-6 outlet K-28214-BL/K-28214-ASC-BL,62,high,false
+K-28212IN-NA,requires,K-28214-ASC-BL,mandatory,Digital control 2-6 outlet K-28214-BL/K-28214-ASC-BL,62,high,false
+K-28211IN-NA,requires,K-28214-BL,mandatory,Digital control 2-6 outlet K-28214-BL / 28214-ASC-BL,62,high,false
+K-28214-ASC-BL,requires,K-28212IN-NA,mandatory,Digital thermostatic valve K-28212IN-NA/ K-28211IN-NA & System Controller Module 27756IN-NA,62,high,false
+K-28214-ASC-BL,requires,K-28211IN-NA,mandatory,Digital thermostatic valve K-28212IN-NA/ K-28211IN-NA & System Controller Module 27756IN-NA,62,high,false
+K-28214-BL,requires,K-28212IN-NA,mandatory,Digital thermostatic valve K-28212IN-NA/ K-28211IN-NA,62,high,false
+K-28214-BL,requires,K-28211IN-NA,mandatory,Digital thermostatic valve K-28212IN-NA/ K-28211IN-NA,62,high,false
+K-26350IN-9-CP,requires,K-26344IN-NA,mandatory,Trim only; for use with valve K-26344IN-NA,62,high,false
+K-26349T-9-CP/EX26349T-9-CP,requires,K-26343T-NA,mandatory,Trim only; for use with valve K-26343T-NA,62,high,false
+K-26348IN-9-CP,requires,K-26342IN-NA,mandatory,Trim only; for use with valve K-26342IN-NA,63,high,false
+K-26347IN-9-CP,requires,K-26341IN-NA,mandatory,Trim only; for use with valve K-26341IN-NA,63,high,false
+K-26344IN-NA,requires,K-26350IN-9-CP,mandatory,"Valve only, for use with trim K-26350IN-9-CP, AF, RGD, BRD, BV, BL",63,high,false
+K-26343T-NA,requires,EX26349T-9-CP,mandatory,"Valve only, for use with trim EX26349T-9-CP/K-26349T-9-CP, AF, RGD, BL, K-26349W-9-BV",63,high,true
+K-26343T-NA,requires,K-26349T-9-CP,mandatory,"Valve only, for use with trim EX26349T-9-CP/K-26349T-9-CP, AF, RGD, BL, K-26349W-9-BV",63,high,true
+K-26343T-NA,requires,K-26349W-9-BV,mandatory,"Valve only, for use with trim EX26349T-9-CP/K-26349T-9-CP, AF, RGD, BL, K-26349W-9-BV",63,high,false
+K-26342IN-NA,requires,K-26348IN-9-CP,mandatory,"Valve only, for use with trim K-26348IN-9-CP, AF, RGD, BRD, BV, BL",63,high,false
+K-26341IN-NA,requires,K-26347IN-9-CP,mandatory,"Valve only, for use with trim K-26347IN-9-CP, AF, RGD, BRD, BV, BL",63,high,false
+K-25761IN-9-CP,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",63,high,false
+K-20742IN-9FP-CP,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",63,high,false
+K-24431IN-9FP-CP,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",63,high,false
+K-99925IN-4FP-CP,requires,K-99924IN-CP,mandatory,"Trim only, for use with valve K-99924IN-CP",64,high,false
+K-25759IN-4ND-AF,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",97,high,false
+K-25761IN-9-AF,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve (K-20740IN-A-NA)",97,high,false
+K-23486IN-4ND-AF,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",98,high,false
+K-23497IN-4-AF,requires,K-99924IN-AF,mandatory,"Trim only, for use with valve K-99924IN-AF",98,high,false
+K-23496IN-4SL-AF,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",98,high,false
+K-5684IN-4ND-AF,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve (K-5679IN-NA)",98,high,false
+K-77311IN-4FP-AF,requires,K-99924IN-AF,mandatory,"Trim only, for use with valve K-99924IN-AF",98,high,false
+K-72328IN-4FS-AF,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",98,high,false
+K-38896IN-4FS-AF,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",99,high,false
+K-38897IN-4FP-AF,requires,K-99924IN-AF,mandatory,"Trim only, for use with valve K-99924IN-AF",99,high,false
+K-38890IN-4FP-AF,requires,K-99924IN-AF,mandatory,"Trim only, for use with valve K-99924IN-AF",99,high,false
+K-38889IN-4FS-AF,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",99,high,false
+K-38464IN-4ND-AF,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",100,high,false
+K-38469IN-4FS-AF,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",100,high,false
+K-38468IN-4FP-AF,requires,K-75201IN-CP,mandatory,"Trim only, for use with valve K-75201IN-CP",100,high,false
+K-23971IN-4FS-AF,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",101,high,false
+K-22540IN-4AND-AF,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",101,high,false
+K-38938IN-4FS-AF,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",101,high,false
+K-38939IN-4FP-AF,requires,K-75201IN-AF,mandatory,"Trim only, for use with valve K-75201IN-AF",101,high,true
+K-26791IN-4ND-AF,requires,K-25150IN-NA,mandatory,"Trim only, for use with valve K-25150IN-NA",102,high,false
+K-33103IN-4ND-AF,requires,K-25149IN-NA,mandatory,"Trim only, for use with valve K-25149IN-NA",102,high,false
+K-33111IN-4FS-AF,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",102,high,false
+K-27483IN-4ND-AF,requires,K-25150IN-NA,mandatory,"Trim only, for use with valve K-25150IN-NA",103,high,false
+K-27500IN-4FS-AF,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",103,high,false
+K-27482IN-4ND-AF,requires,K-25150IN-NA,mandatory,"Trim only, for use with valve K-25150IN-NA",103,high,false
+K-27488IN-4ND-AF,requires,K-25150IN-NA,mandatory,"Trim only, for use with valve K-25150IN-NA",103,high,false
+K-27499IN-4FS-AF,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",103,high,false
+K-73087T-B4-AF,requires,K-97905T-NA,mandatory,Mounting base (K-97905T-NA),104,high,false
+K-9301IN-CL-AF,requires,K-16347IN-AF,mandatory,Ceiling-mount shower arm in french gold (K-16347IN-AF),104,high,false
+K-26297IN-AF,requires,K-26324IN-AF,mandatory,Statement™ wall/ceiling-mount shower arm in french gold (K-26324IN-AF/K-26326T-AF),104,high,false
+K-26297IN-AF,requires,K-26326T-AF,mandatory,Statement™ wall/ceiling-mount shower arm in french gold (K-26324IN-AF/K-26326T-AF),104,high,false
+K-9302IN-CL-AF,requires,K-16347IN-AF,mandatory,Ceiling-mount shower arm in french gold (K-16347IN-AF),104,high,false
+K-26296IN-AF,requires,K-26324IN-AF,mandatory,Statement™ wall/ceiling-mount shower arm in french gold (K-26324IN-AF/K-26326T-AF),105,high,false
+K-26296IN-AF,requires,K-26326T-AF,mandatory,Statement™ wall/ceiling-mount shower arm in french gold (K-26324IN-AF/K-26326T-AF),105,high,false
+K-24470IN-AF,requires,K-26324IN-AF,mandatory,Statement™ wall/ceiling-mount shower arm in french gold (K-26324IN-AF/K-26326T-AF),105,high,false
+K-24470IN-AF,requires,K-26326T-AF,mandatory,Statement™ wall/ceiling-mount shower arm in french gold (K-26324IN-AF/K-26326T-AF),105,high,false
+K-26294IN-AF,requires,K-16346IN-AF,mandatory,Statement™ wall/ceiling mount shower arm in french gold K-16346IN-AF/K-16347IN-AF,105,high,false
+K-26294IN-AF,requires,K-16347IN-AF,mandatory,Statement™ wall/ceiling mount shower arm in french gold K-16346IN-AF/K-16347IN-AF,105,high,false
+K-38629IN-AF,requires,K-26324IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-26324IN-AF/K-26326T-AF),105,high,false
+K-38629IN-AF,requires,K-26326T-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-26324IN-AF/K-26326T-AF),105,high,false
+K-27731IN-AF,requires,K-16346IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-27731IN-AF,requires,K-16347IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-26856IN-AF,requires,K-16346IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-26856IN-AF,requires,K-16347IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-26855IN-AF,requires,K-16346IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-26855IN-AF,requires,K-16347IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-26854IN-AF,requires,K-16346IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-26854IN-AF,requires,K-16347IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-38973IN-AF,requires,K-16346IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-38973IN-AF,requires,K-16347IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-73040IN-CL-AF,requires,K-16346IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-73040IN-CL-AF,requires,K-16347IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-39507IN-AF,requires,K-16346IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-39507IN-AF,requires,K-16347IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),105,high,false
+K-73039IN-CL-AF,requires,K-16346IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),106,high,false
+K-73039IN-CL-AF,requires,K-16347IN-AF,mandatory,Wall/ceiling-mount shower arm in french gold (K-16346IN-AF/ K-16347IN-AF),106,high,false
+K-26290IN-AF,requires,K-26318IN-AF,mandatory,Wall mount shower arm in french gold K-26318IN-AF,106,high,false
+K-38972IN-AF,requires,K-99054IN-AF,mandatory,Wall mount shower arm K-99054IN-AF,106,high,false
+K-39505IN-AF,requires,K-99054IN-AF,mandatory,Wall mount shower arm K-99054IN-AF,106,high,false
+K-28694IN-AF,requires,K-99035T-AF,mandatory,Hand shower bracket in french gold K-99035T-AF,107,high,false
+K-28695IN-AF,requires,K-99035T-AF,mandatory,Hand shower bracket in french gold K-99035T-AF,107,high,false
+K-97009T-AF,requires,K-99035T-AF,mandatory,"Hand shower bracket in rose gold K-99035T-AF, Flexible hose K-12067IN-AF",107,high,false
+K-97009T-AF,requires,K-12067IN-AF,mandatory,"Hand shower bracket in rose gold K-99035T-AF, Flexible hose K-12067IN-AF",107,high,false
+K-39502IN-AF,requires,K-99035T-AF,mandatory,"Handshower bracket in french gold (K-99035T-AF), Flexible hose (K-12067IN-AF)",107,high,false
+K-39502IN-AF,requires,K-12067IN-AF,mandatory,"Handshower bracket in french gold (K-99035T-AF), Flexible hose (K-12067IN-AF)",107,high,false
+K-98445IN-AF,requires,K-99035T-AF,mandatory,Hand shower bracket in french gold K-99035T-AF,107,high,false
+K-30318IN-AF,requires,K-30319IN-NA,mandatory,"Anthem+ Digital Control 28214-ASC-BL, Amplifier K-30319IN-NA",107,high,false
+K-26350IN-9-AF,requires,K-26344IN-NA,mandatory,"Trim only, for use with valve (K-26344IN-NA)",107,high,false
+EX26349T-9-AF,requires,K-26343T-NA,mandatory,"Trim only, for use with valve (K-26343T-NA)",107,high,false
+K-26348IN-9-AF,requires,K-26342IN-NA,mandatory,"Trim only, for use with valve (K-26342IN-NA)",107,high,false
+K-26347IN-9-AF,requires,K-26341IN-NA,mandatory,"Trim only, for use with valve (K-26341IN-NA)",107,high,false
+K-25761IN-9-AF,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve (K-20740IN-A-NA)",108,high,false
+K-20742IN-9FP-AF,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve (K-20740IN-A-NA)",108,high,false
+K-24431IN-9FP-AF,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve (K-20740IN-A-NA)",108,high,false
+K-99925IN-4FP-AF,requires,K-99924IN-AF,mandatory,"Trim only, for use with valve (K-99924IN-AF)",108,high,false
+K-23486IN-4ND-BV,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",114,high,false
+K-23496IN-4SL-BV,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",114,high,false
+K-5684IN-4ND-BV,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",115,high,false
+K-72328IN-4SL-BV,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",115,high,false
+K-5683IN-4ND-BV,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",115,high,false
+K-72290IN-4SL-BV,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",115,high,false
+K-38896IN-4FS-BV,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",116,high,false
+K-38889IN-4FS-BV,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",116,high,false
+K-9301IN-ZX-BV,requires,K-15399T-B-BV,mandatory,Ceiling-mount shower arm in brushed bronze (K-15399T-B-BV),117,high,false
+K-26297IN-BV,requires,K-26324IN-BV,mandatory,Statement™ wall mount shower arm in brushed bronze K-26324IN-BV,117,high,false
+K-9302IN-CL-BV,requires,K-15399T-B-BV,mandatory,Ceiling-mount shower arm in brushed bronze (K-15399T-B-BV),117,high,false
+K-26296IN-BV,requires,K-26324IN-BV,mandatory,Statement™ wall mount shower arm in brushed bronze K-26324IN-BV,117,high,false
+K-24470IN-BV,requires,K-26324IN-BV,mandatory,Statement™ wall mount shower arm in brushed bronze K-26324IN-BV,117,high,false
+K-26294IN-BV,requires,K-16346IN-BV,mandatory,Statement™ Wall/ceiling-mount shower arm in brushed bronze K-16346IN-BV,117,high,false
+K-38629IN-BV,requires,K-26324IN-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-26324IN-BV),117,high,false
+K-27731IN-BV,requires,K-16346IN-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),117,high,false
+K-27731IN-BV,requires,K-15399T-B-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),117,high,false
+K-26856IN-BV,requires,K-16346IN-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),117,high,false
+K-26856IN-BV,requires,K-15399T-B-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),117,high,false
+K-26855IN-BV,requires,K-16346IN-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),117,high,false
+K-26855IN-BV,requires,K-15399T-B-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),117,high,false
+K-26854IN-BV,requires,K-16346IN-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),117,high,false
+K-26854IN-BV,requires,K-15399T-B-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),117,high,false
+K-38973IN-BV,requires,K-16346IN-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),118,high,false
+K-38973IN-BV,requires,K-15399T-B-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),118,high,false
+K-39507IN-BV,requires,K-16346IN-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),118,high,false
+K-39507IN-BV,requires,K-15399T-B-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),118,high,false
+K-26290IN-BV,requires,K-26318IN-BV,mandatory,Wall mount shower arm in brushed bronze K-26318IN-BV,118,high,false
+K-38972IN-BV,requires,K-16346IN-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),118,high,false
+K-38972IN-BV,requires,K-15399T-B-BV,mandatory,Wall/ceiling-mount shower arm in brushed bronze (K-16346IN-BV/K-15399T-B-BV),118,high,false
+K-28694IN-BV,requires,K-9038IN-BV,mandatory,Hand shower bracket in brushed bronze K-9038IN-BV,118,high,false
+K-28695IN-BV,requires,K-9038IN-BV,mandatory,Hand shower bracket in brushed bronze K-9038IN-BV,118,high,false
+K-39502IN-BV,requires,K-9038IN-BV,mandatory,"Hand shower bracket in brushed bronze K-9038IN-BV, Flexible hose K-12067IN-BV",119,high,false
+K-39502IN-BV,requires,K-12067IN-BV,mandatory,"Hand shower bracket in brushed bronze K-9038IN-BV, Flexible hose K-12067IN-BV",119,high,false
+K-98445IN-BV,requires,K-9038IN-BV,mandatory,Hand shower bracket in brushed bronze K-9038IN-BV,119,high,false
+K-30318IN-BV,requires,K-30319IN-NA,mandatory,"Anthem+ Digital Control 28214-ASC-BL, Amplifier K-30319IN-NA",119,high,false
+K-26350IN-9-BV,requires,K-26344IN-NA,mandatory,"Trim only, for use with valve K-26344IN-NA",119,high,false
+K-26349W-9-BV,requires,K-26343T-NA,mandatory,"Trim only, for use with valve K-26343T-NA",119,high,false
+K-26348IN-9-BV,requires,K-26342IN-NA,mandatory,"Trim only, for use with valve K-26342IN-NA",119,high,false
+K-26347IN-9-BV,requires,K-26341IN-NA,mandatory,"Trim only, for use with valve K-26341IN-NA",119,high,false
+K-20742IN-9FP-BV,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",119,high,false
+K-24431IN-9FP-BV,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",119,high,false
+K-25761IN-9-RGD,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",124,high,false
+K-23486IN-4ND-RGD,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",124,high,false
+K-23496IN-4SL-RGD,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",124,high,false
+K-5684IN-4ND-RGD,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",125,high,false
+K-72328IN-4SL-RGD,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",125,high,false
+K-5683IN-4ND-RGD,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",125,high,false
+K-72290IN-4SL-RGD,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",125,high,false
+K-38896IN-4FS-RGD,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",126,high,false
+K-38889IN-4FS-RGD,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",126,high,false
+K-23971IN-4SL-RGD,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",127,high,false
+K-9301IN-ZX-RGD,requires,K-16347IN-RGD,mandatory,Ceiling-mount shower arm in rose gold (K-16347IN-RGD),127,high,false
+K-26297IN-RGD,requires,K-26324IN-RGD,mandatory,Statement™ wall/ceiling-mount shower arm in rose gold (K-26324IN-RGD/K-26326T-RGD),127,high,false
+K-26297IN-RGD,requires,K-26326T-RGD,mandatory,Statement™ wall/ceiling-mount shower arm in rose gold (K-26324IN-RGD/K-26326T-RGD),127,high,false
+K-9302IN-CL-RGD,requires,K-16347IN-RGD,mandatory,Ceiling-mount shower arm in rose gold (K-16347IN-RGD),127,high,false
+K-26296IN-RGD,requires,K-26324IN-RGD,mandatory,Statement™ wall/ceiling-mount shower arm in rose gold K-26324IN-RGD/K-26326T-RGD,127,high,false
+K-26296IN-RGD,requires,K-26326T-RGD,mandatory,Statement™ wall/ceiling-mount shower arm in rose gold K-26324IN-RGD/K-26326T-RGD,127,high,false
+K-24470IN-RGD,requires,K-26324IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-26324IN-RGD/K-26326T-RGD),127,high,false
+K-24470IN-RGD,requires,K-26326T-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-26324IN-RGD/K-26326T-RGD),127,high,false
+K-26294IN-RGD,requires,K-16346IN-RGD,mandatory,Statement™ wall/ceiling-mount shower arm in rose gold K-16346IN-RGD/K-16347IN-RGD,127,high,false
+K-26294IN-RGD,requires,K-16347IN-RGD,mandatory,Statement™ wall/ceiling-mount shower arm in rose gold K-16346IN-RGD/K-16347IN-RGD,127,high,false
+K-38629IN-RGD,requires,K-26324IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-26324IN-RGD/K-26326T-RGD),128,high,false
+K-38629IN-RGD,requires,K-26326T-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-26324IN-RGD/K-26326T-RGD),128,high,false
+K-27731IN-RGD,requires,K-16346IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-27731IN-RGD,requires,K-16347IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-26856IN-RGD,requires,K-16346IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-26856IN-RGD,requires,K-16347IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-26855IN-RGD,requires,K-16346IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-26855IN-RGD,requires,K-16347IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-26854IN-RGD,requires,K-16346IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-26854IN-RGD,requires,K-16347IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-38973IN-RGD,requires,K-16346IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-38973IN-RGD,requires,K-16347IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-39507IN-RGD,requires,K-16346IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-39507IN-RGD,requires,K-16347IN-RGD,mandatory,Wall/ceiling-mount shower arm in rose gold (K-16346IN-RGD/ K-16347IN-RGD),128,high,false
+K-26290IN-RGD,requires,K-26318IN-RGD,mandatory,Wall mount shower arm in rose gold (K-26318IN-RGD),128,high,false
+K-38972IN-RGD,requires,K-26318IN-RGD,mandatory,Wall mount shower arm in rose gold (K-26318IN-RGD),128,high,false
+K-28694IN-RGD,requires,K-99035T-ZZ-RGD,mandatory,Hand shower bracket in rose gold K-99035T-ZZ-RGD,129,high,false
+K-97009IN-RGD,requires,K-99035T-ZZ-RGD,mandatory,"Hand shower bracket in rose gold K-99035T-ZZ-RGD, Flexible hose K-12067IN-RGD",129,high,false
+K-97009IN-RGD,requires,K-12067IN-RGD,mandatory,"Hand shower bracket in rose gold K-99035T-ZZ-RGD, Flexible hose K-12067IN-RGD",129,high,false
+K-28695IN-RGD,requires,K-99035T-ZZ-RGD,mandatory,Hand shower bracket in rose gold K-99035T-ZZ-RGD,129,high,false
+K-39502IN-RGD,requires,K-99035T-ZZ-RGD,mandatory,"Hand shower bracket in rose gold K-99035T-ZZ-RGD, Flexible hose K-12067IN-RGD",129,high,false
+K-39502IN-RGD,requires,K-12067IN-RGD,mandatory,"Hand shower bracket in rose gold K-99035T-ZZ-RGD, Flexible hose K-12067IN-RGD",129,high,false
+K-30318IN-RGD,requires,K-30319IN-NA,mandatory,"Anthem+ Digital Control 28214-ASC-BL, Amplifier K-30319IN-NA",129,high,false
+K-26350IN-9-RGD,requires,K-26344IN-NA,mandatory,"Trim only, for use with valve K-26344IN-NA",129,high,false
+K-26349T-9-RGD/EX26349T-9-RGD,requires,K-26343T-NA,mandatory,"Trim only, for use with valve K-26343T-NA",130,high,false
+K-26348IN-9-RGD,requires,K-26342IN-NA,mandatory,"Trim only, for use with valve K-26342IN-NA",130,high,false
+K-26347IN-9-RGD,requires,K-26341IN-NA,mandatory,"Trim only, for use with valve K-26341IN-NA",130,high,false
+K-25761IN-9-RGD,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",130,high,false
+K-20742IN-9FP-RGD,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",130,high,false
+K-24431IN-9FP-RGD,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",130,high,false
+K-25759IN-4ND-BL,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",134,high,false
+K-25761IN-9-BL,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",134,high,false
+K-23486IN-4ND-BL,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",135,high,false
+K-5684IN-4ND-BL,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve (K-5679IN-NA)",135,high,false
+K-77311IN-4FP-BL,requires,K-99924IN-BL,mandatory,"Trim only, for use with valve (K-99924IN-BL)",135,high,false
+K-38897IN-4FP-BL,requires,K-99924IN-BL,mandatory,"Trim only, for use with valve K-99924IN-BL",136,high,false
+K-38890IN-4FP-BL,requires,K-99924IN-BL,mandatory,"Trim only, for use with valve K-99924IN-BL",136,high,false
+K-9301IN-CL-BL,requires,K-22447IN-BL,mandatory,Ceiling-mount shower arm in Black (K-22447IN-BL),137,high,false
+K-26297IN-BL,requires,K-26324IN-BL,mandatory,Statement™ wall/ceiling-mount shower arm in matte black (K-26324IN-BL/K-26326T-BL),137,high,false
+K-26297IN-BL,requires,K-26326T-BL,mandatory,Statement™ wall/ceiling-mount shower arm in matte black (K-26324IN-BL/K-26326T-BL),137,high,false
+K-9302IN-CL-BL,requires,K-22447IN-BL,mandatory,Ceiling-mount shower arm in Black (K-22447IN-BL),138,high,false
+K-26296IN-BL,requires,K-26324IN-BL,mandatory,Statement™ wall/ceiling-mount shower arm in matte black (K-26324IN-BL/K-26326T-BL),138,high,false
+K-26296IN-BL,requires,K-26326T-BL,mandatory,Statement™ wall/ceiling-mount shower arm in matte black (K-26324IN-BL/K-26326T-BL),138,high,false
+K-24470IN-BL,requires,K-26324IN-BL,mandatory,Statement™ wall/ceiling-mount shower arm in matte black (K-26324IN-BL/K-26326T-BL),138,high,false
+K-24470IN-BL,requires,K-26326T-BL,mandatory,Statement™ wall/ceiling-mount shower arm in matte black (K-26324IN-BL/K-26326T-BL),138,high,false
+K-26294IN-BL,requires,K-22447IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-26294IN-BL,requires,K-22446IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-38629IN-BL,requires,K-26324IN-BL,mandatory,Wall/ceiling-mount shower arm in french gold (K-26324IN-BL/K-26326T-BL),138,high,false
+K-38629IN-BL,requires,K-26326T-BL,mandatory,Wall/ceiling-mount shower arm in french gold (K-26324IN-BL/K-26326T-BL),138,high,false
+K-27731IN-BL,requires,K-22447IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-27731IN-BL,requires,K-22446IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-26856IN-BL,requires,K-22447IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-26856IN-BL,requires,K-22446IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-26855IN-BL,requires,K-22447IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-26855IN-BL,requires,K-22446IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-26854IN-BL,requires,K-22447IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-26854IN-BL,requires,K-22446IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-38973IN-BL,requires,K-22447IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-38973IN-BL,requires,K-22446IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-39507IN-BL,requires,K-22447IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-39507IN-BL,requires,K-22446IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-73040IN-CL-BL,requires,K-22447IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-73040IN-CL-BL,requires,K-22446IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),138,high,false
+K-73039IN-CL-BL,requires,K-22447IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),139,high,false
+K-73039IN-CL-BL,requires,K-22446IN-BL,mandatory,Wall/ceiling-mount shower arm in matte black (K-22447IN-BL/K-22446IN-BL),139,high,false
+K-26290IN-BL,requires,K-26318IN-BL,mandatory,Wall mount shower arm in matte black K-26318IN-BL,139,high,false
+K-38972IN-BL,requires,K-26318IN-BL,mandatory,Wall mount shower arm in matte black K-26318IN-BL,139,high,false
+K-28694IN-BL,requires,K-99035IN-BL,mandatory,Hand shower bracket in matte black K-99035IN-BL,139,high,false
+K-28695IN-BL,requires,K-99035IN-BL,mandatory,Hand shower bracket in matte black K-99035IN-BL,139,high,false
+K-39502IN-BL,requires,K-99035IN-BL,mandatory,"Hand shower bracket in matte black K-99035IN-BL, Flexible hose K-11628IN-BL",140,high,false
+K-39502IN-BL,requires,K-11628IN-BL,mandatory,"Hand shower bracket in matte black K-99035IN-BL, Flexible hose K-11628IN-BL",140,high,false
+K-98445IN-BL,requires,K-99035IN-BL,mandatory,Hand shower bracket in matte black K-99035IN-BL,140,high,false
+K-30318IN-BL,requires,K-30319IN-NA,mandatory,"Anthem+ Digital Control 28214-ASC-BL, Amplifier K-30319IN-NA",140,high,false
+K-28214-ASC-BL,requires,K-28212IN-NA,mandatory,Digital thermostatic valve K-28212IN-NA/ 28211IN-NA & System Controller Module 27756IN-NA,140,high,false
+K-28214IN-BL,requires,K-28212IN-NA,mandatory,Digital thermostatic valve K-28212IN-NA/ K-28211IN-NA,140,high,false
+K-28214IN-BL,requires,K-28211IN-NA,mandatory,Digital thermostatic valve K-28212IN-NA/ K-28211IN-NA,140,high,false
+K-26350IN-9-BL,requires,K-26344IN-NA,mandatory,"Trim only, for use with valve K-26344IN-NA",140,high,false
+EX26349T-9-BL,requires,K-26343T-NA,mandatory,"Trim only, for use with valve K-26343T-NA",140,high,false
+K-26348IN-9-BL,requires,K-26342IN-NA,mandatory,"Trim only, for use with valve K-26342IN-NA",140,high,false
+K-26347IN-9-BL,requires,K-26341IN-NA,mandatory,"Trim only, for use with valve K-26341IN-NA",140,high,false
+K-25761IN-9-BL,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",140,high,false
+K-20742IN-9FP-BL,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",141,high,false
+K-24431IN-9FP-BL,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",141,high,false
+K-23486IN-4ND-BRD,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",144,high,false
+K-23496IN-4SL-BRD,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",144,high,false
+K-5684IN-4ND-BRD,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",144,high,false
+K-72328IN-4SL-BRD,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",145,high,false
+K-5683IN-4ND-BRD,requires,K-5679IN-NA,mandatory,"Trim only, for use with valve K-5679IN-NA",145,high,false
+K-72290IN-4SL-BRD,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",145,high,false
+K-38896IN-4FS-BRD,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",145,high,false
+K-38889IN-4FS-BRD,requires,K-882IN-NA,mandatory,"Trim only, for use with valve K-882IN-NA",146,high,false
+K-9301IN-ZX-BRD,requires,K-15399IN-B-BRD,mandatory,Ceiling-mount shower arm in brushed rose gold (K-15399IN-B-BRD),146,high,false
+K-26297IN-BRD,requires,K-26324IN-BRD,mandatory,Statement™ wall/ceiling-mount shower arm in brushed rose gold K-26324IN-BRD/K-26326IN-BRD,146,high,false
+K-26297IN-BRD,requires,K-26326IN-BRD,mandatory,Statement™ wall/ceiling-mount shower arm in brushed rose gold K-26324IN-BRD/K-26326IN-BRD,146,high,false
+K-9302IN-CL-BRD,requires,K-15399IN-B-BRD,mandatory,Ceiling-mount shower arm in brushed rose gold (K-15399IN-B-BRD),146,high,false
+K-26296IN-BRD,requires,K-26324IN-BRD,mandatory,Statement™ wall/ceiling-mount shower arm in brushed rose gold K-26324IN-BRD/K-26326IN-BRD,146,high,false
+K-26296IN-BRD,requires,K-26326IN-BRD,mandatory,Statement™ wall/ceiling-mount shower arm in brushed rose gold K-26324IN-BRD/K-26326IN-BRD,146,high,false
+K-26294IN-BRD,requires,K-16346IN-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-16346IN-BRD/ K-15399IN-B-BRD),147,high,false
+K-26294IN-BRD,requires,K-15399IN-B-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-16346IN-BRD/ K-15399IN-B-BRD),147,high,false
+K-38629IN-BRD,requires,K-26324IN-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-26324IN-BRD/K-26326IN-BRD),147,high,false
+K-38629IN-BRD,requires,K-26326IN-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-26324IN-BRD/K-26326IN-BRD),147,high,false
+K-26856IN-BRD,requires,K-16346IN-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-16346IN-BRD/ K-15399IN-B-BRD),147,high,false
+K-26856IN-BRD,requires,K-15399IN-B-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-16346IN-BRD/ K-15399IN-B-BRD),147,high,false
+K-26855IN-BRD,requires,K-16346IN-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-16346IN-BRD/ K-15399IN-B-BRD),147,high,false
+K-26855IN-BRD,requires,K-15399IN-B-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-16346IN-BRD/ K-15399IN-B-BRD),147,high,false
+K-38973IN-BRD,requires,K-16346IN-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-16346IN-BRD/ K-15399IN-B-BRD),147,high,false
+K-38973IN-BRD,requires,K-15399IN-B-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-16346IN-BRD/ K-15399IN-B-BRD),147,high,false
+K-39507IN-BRD,requires,K-16346IN-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-16346IN-BRD/ K-15399IN-B-BRD),147,high,false
+K-39507IN-BRD,requires,K-15399IN-B-BRD,mandatory,Wall/ceiling-mount shower arm in brushed rose gold (K-16346IN-BRD/ K-15399IN-B-BRD),147,high,false
+K-26290IN-BRD,requires,K-26318IN-BRD,mandatory,Wall mount shower arm in brushed rose gold (K-26318IN-BRD),147,high,false
+K-38972IN-BRD,requires,K-26318IN-BRD,mandatory,Wall mount shower arm in brushed rose gold (K-26318IN-BRD),147,high,false
+K-28694IN-BRD,requires,K-99035IN-BRD,mandatory,Hand shower bracket in brushed rose gold K-99035IN-BRD,148,high,false
+K-28695IN-BRD,requires,K-99035IN-BRD,mandatory,Hand shower bracket in brushed rose gold K-99035IN-BRD,148,high,false
+K-39502IN-BRD,requires,K-99035IN-BRD,mandatory,"Hand shower bracket in brushed rose gold K-99035IN-BRD, Flexible hose K-12067IN-BRD",148,high,false
+K-39502IN-BRD,requires,K-12067IN-BRD,mandatory,"Hand shower bracket in brushed rose gold K-99035IN-BRD, Flexible hose K-12067IN-BRD",148,high,false
+K-98445IN-BRD,requires,K-99035IN-BRD,mandatory,Hand shower bracket in brushed rose gold K-99035IN-BRD,148,high,false
+K-26350IN-9-BRD,requires,K-26344IN-NA,mandatory,"Trim only, for use with valve K-26344IN-NA",148,high,false
+K-26348IN-9-BRD,requires,K-26342IN-NA,mandatory,"Trim only, for use with valve K-26342IN-NA",148,high,false
+K-26347IN-9-BRD,requires,K-26341IN-NA,mandatory,"Trim only, for use with valve K-26341IN-NA",148,high,false
+K-20742IN-9FP-BRD,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",148,high,false
+K-24431IN-9FP-BRD,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",149,high,false
+K-20741IN-9FP-BRD,requires,K-20740IN-A-NA,mandatory,"Trim only, for use with valve K-20740IN-A-NA",149,high,false
+K-39242IN-ST,compatible_with,K-38806IN-NA,compatible,"Compatible Sink: K-38806IN-NA, K-38807IN-NA",155,high,false
+K-39242IN-ST,compatible_with,K-38807IN-NA,compatible,"Compatible Sink: K-38806IN-NA, K-38807IN-NA",155,high,false
+K-39241IN-ST,compatible_with,K-38803IN-NA,compatible,Compatible Sink: K-38803IN-NA,155,high,false
+K-39240IN-ST,compatible_with,K-38801IN-NA,compatible,"Compatible Sink: K-38801IN-NA, K-38802IN-NA",155,high,false
+K-39240IN-ST,compatible_with,K-38802IN-NA,compatible,"Compatible Sink: K-38801IN-NA, K-38802IN-NA",155,high,false
+K-39239IN-ST,compatible_with,K-38797IN-NA,compatible,Compatible Sink: K-38797IN-NA,155,high,false
+K-39238IN-ST,compatible_with,K-38796IN-NA,compatible,Compatible Sink: K-38796IN-NA,155,high,false
+K-39237IN-ST,compatible_with,K-38779IN-NA,compatible,"Compatible Sink: K-38779IN-NA, K-38795IN-NA",155,high,false
+K-39237IN-ST,compatible_with,K-38795IN-NA,compatible,"Compatible Sink: K-38779IN-NA, K-38795IN-NA",155,high,false
+K-39228IN-ST,compatible_with,K-38778IN-NA,compatible,Compatible Sink: K-38778IN-NA,155,high,false
+K-39218IN-ST,compatible_with,K-38735IN-NA,compatible,Compatible Sink: K-38735IN-NA,155,high,false
+K-18777IN-K-0,requires,K-17295T-CP,mandatory,Bath drain in polished chrome (K-17295T-CP),161,high,false
+K-1709IN-K-0,requires,K-17295T-CP,mandatory,Bath drain in polished chrome (K-17295T-CP),161,high,false
+K-1404IN-K-0,requires,K-17295T-CP,mandatory,Bath drain in polished chrome K-17295T-CP,161,high,false
+K-1704T-Z-0,requires,K-17295T-CP,mandatory,Bath drain in polished chrome K-17295T-CP,161,high,false
+K-1707T-Z-0,requires,K-17295T-CP,mandatory,Bath drain in polished chrome K-17295T-CP,161,high,false
+K-18778T-0,requires,K-17295T-CP,mandatory,Bath drain in polished chrome K-17295T-CP,161,high,false
+K-18776T-0,requires,K-17295T-CP,mandatory,Bath drain in polished chrome K-17295T-CP,161,high,false
+K-15847T-0,requires,K-17295T-CP,mandatory,Bath drain in polished chrome K-17295T-CP,161,high,false
+K-97367T-B4-CP,requires,K-97904T-NA,mandatory,Mounting base (K-97904T-NA),162,high,false
+K-73087T-B4-CP,requires,K-97905T-NA,mandatory,Mounting base (K-97905T-NA),162,high,false
+EX25998T-NW-CP,requires,K-28845IN-NA,mandatory,AC Power supply (K-28845IN-NA),166,high,true

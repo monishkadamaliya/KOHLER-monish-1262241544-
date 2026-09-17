@@ -1,0 +1,16 @@
+metric,count,status
+"Catalogue rows (input, from uploaded reconciled file)",1396,input
+Shower-enclosure rows removed (heuristic pass-1 extraction),158,removed
+Shower-enclosure rows re-extracted (precise PDF grid reconstruction),239,added
+Net new shower-enclosure SKUs recovered (missed entirely before),81,gained
+Shower-enclosure rows still flagged for review,1,open
+Shower-enclosure MRP gaps remaining,0,resolved
+Total catalogue rows (final),1477,output
+Total unique SKUs (final),1451,output
+Malformed SKU strings (excl. cleaning-solution product codes),1,"open — single source-typo, preserved as printed"
+Rows flagged duplicate_status=repeated_same_sku,52,"tracked, not deleted"
+Non-enclosure rows still flagged review_required (pre-existing composite-SKU rows),20,"pre-existing, out of this pass's scope"
+Relationship rows before target-splitting fix,585,input
+Relationship rows after compound-target splitting,675,output
+Relationship targets resolved,581,of 675
+Unique unresolved relationship targets,64,down from 88
