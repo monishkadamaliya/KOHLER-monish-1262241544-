@@ -1,0 +1,38 @@
+look_id,look_name,source_page,look_description,look_total_price,currency,product_count,source_document,extraction_confidence,review_required,review_reason
+look_001,Superior,13,,,,4,Projectlookbook.pdf,medium,true,"This page uses a simplified highlight format (a short bulleted product list) rather than the numbered product table with per-item pricing and a ""GET THIS LOOK AT"" total used elsewhere in the book; no look_total_price or per-item prices are stated on this page."
+look_002,Superior,15,,1091450.0,INR,11,Projectlookbook.pdf,high,false,
+look_003,Superior,17,,383640.0,INR,13,Projectlookbook.pdf,high,false,
+look_004,Superior,19,,225200.0,INR,13,Projectlookbook.pdf,high,false,
+look_005,Aspire,23,,174420.0,INR,14,Projectlookbook.pdf,high,false,
+look_006,Aspire,25,,173160.0,INR,14,Projectlookbook.pdf,high,false,
+look_007,Aspire,27,,137630.0,INR,13,Projectlookbook.pdf,high,false,
+look_008,Aspire,29,,120650.0,INR,13,Projectlookbook.pdf,high,false,
+look_009,Aspire,31,,94690.0,INR,13,Projectlookbook.pdf,high,false,
+look_010,Aspire,33,,82710.0,INR,13,Projectlookbook.pdf,high,false,
+look_011,Desire,37,,61870.0,INR,12,Projectlookbook.pdf,high,false,
+look_012,Desire,39,,62830.0,INR,13,Projectlookbook.pdf,high,false,
+look_013,Desire,41,,62790.0,INR,13,Projectlookbook.pdf,high,false,
+look_014,Desire,43,,49600.0,INR,12,Projectlookbook.pdf,high,false,
+look_015,Desire,45,,46880.0,INR,13,Projectlookbook.pdf,high,false,
+look_016,Desire,47,,45330.0,INR,12,Projectlookbook.pdf,high,false,
+look_017,Sublime,49,,147470.0,INR,14,Projectlookbook.pdf,high,true,"Two priced faucet configurations are shown for this look (""GET THIS LOOK WITH KUMIN SENSOR FAUCET AT ..."", ""GET THIS LOOK WITH ACCLIV FAUCET AT ...""); look_total_price reflects only the first-listed configuration. See kohler_lookbook_alternative_configurations.csv for both."
+look_018,Sublime,51,,156480.0,INR,14,Projectlookbook.pdf,high,true,"Two priced faucet configurations are shown for this look (""GET THIS LOOK WITH KUMIN SENSOR FAUCET AT ..."", ""GET THIS LOOK WITH BEAM FAUCET AT ...""); look_total_price reflects only the first-listed configuration. See kohler_lookbook_alternative_configurations.csv for both."
+look_019,Sublime,53,,153950.0,INR,14,Projectlookbook.pdf,high,true,"Two priced faucet configurations are shown for this look (""GET THIS LOOK WITH KUMIN SENSOR FAUCET AT ..."", ""GET THIS LOOK WITH FORE TRI FAUCET AT ...""); look_total_price reflects only the first-listed configuration. See kohler_lookbook_alternative_configurations.csv for both."
+look_020,Imperial,55,,204400.0,INR,14,Projectlookbook.pdf,high,true,"Two priced faucet configurations are shown for this look (""GET THIS LOOK WITH SRAYT SENSOR FAUCET AT ..."", ""GET THIS LOOK WITH VIVE FAUCET AT ...""); look_total_price reflects only the first-listed configuration. See kohler_lookbook_alternative_configurations.csv for both."
+look_021,Imperial,57,,220700.0,INR,14,Projectlookbook.pdf,high,true,"Two priced faucet configurations are shown for this look (""GET THIS LOOK WITH KUMIN SENSOR FAUCET AT ..."", ""GET THIS LOOK WITH HONE FAUCET AT ...""); look_total_price reflects only the first-listed configuration. See kohler_lookbook_alternative_configurations.csv for both."
+look_022,Luxe,59,,292460.0,INR,12,Projectlookbook.pdf,high,true,"Two priced faucet configurations are shown for this look (""GET THIS LOOK WITH COMPOSED SENSOR FAUCET AT ..."", ""GET THIS LOOK WITH ALEO+ FAUCET AT ...""); look_total_price reflects only the first-listed configuration. See kohler_lookbook_alternative_configurations.csv for both."
+look_023,Luxe,61,,317240.0,INR,12,Projectlookbook.pdf,high,true,"Two priced faucet configurations are shown for this look (""GET THIS LOOK WITH OBLO SENSOR FAUCET AT ..."", ""GET THIS LOOK WITH MODERNLIFE EDGE FAUCET AT ...""); look_total_price reflects only the first-listed configuration. See kohler_lookbook_alternative_configurations.csv for both."
+look_024,Noir,63,,195890.0,INR,11,Projectlookbook.pdf,high,false,
+look_025,Noir,65,,264765.0,INR,11,Projectlookbook.pdf,high,false,
+look_026,Elegance,67,,55430.0,INR,14,Projectlookbook.pdf,high,false,
+look_027,Elegance,69,,56540.0,INR,14,Projectlookbook.pdf,high,false,
+look_028,Elegance,71,,61890.0,INR,15,Projectlookbook.pdf,high,false,
+look_029,Elegance,73,,57880.0,INR,15,Projectlookbook.pdf,high,false,
+look_030,Elegance,75,,58190.0,INR,15,Projectlookbook.pdf,high,false,
+look_031,Elegance,77,,64300.0,INR,15,Projectlookbook.pdf,high,false,
+look_032,Elegance,79,,68780.0,INR,15,Projectlookbook.pdf,high,false,
+look_033,Harmony,81,,43440.0,INR,14,Projectlookbook.pdf,high,false,
+look_034,Harmony,83,,56200.0,INR,15,Projectlookbook.pdf,high,false,
+look_035,Harmony,85,,53810.0,INR,15,Projectlookbook.pdf,high,false,
+look_036,Harmony,87,,54440.0,INR,15,Projectlookbook.pdf,high,false,
+look_037,Harmony,89,,56150.0,INR,15,Projectlookbook.pdf,high,false,
