@@ -11,13 +11,15 @@ from app.constraints.spatial_schemas import SpatialValidationRequest, SpatialVal
 from app.db.database import engine, get_db
 from app.db.models import Base
 from app.db.schemas import ProductOut, RelationshipOut
+from app.optimization.schemas import OptimizationRequest, OptimizationResponse
+from app.optimization.service import BathroomOptimizer
 from app.retrieval.schemas import RetrievalRequest, RetrievalResponse
 from app.retrieval.service import CatalogueRetrievalService
 
 app = FastAPI(
     title="KOHLER AI Bathroom Intelligence API",
-    version="0.5.0",
-    description="Engine 1 catalogue truth + Engine 2 retrieval + Engine 3 deterministic constraints and spatial validation.",
+    version="0.6.0",
+    description="Engine 1 catalogue truth + Engine 2 retrieval + Engine 3 deterministic constraints/spatial validation + Engine 4 multi-objective optimization.",
 )
 
 
@@ -72,3 +74,8 @@ def constraints_validate(request: ConstraintRequest, db: Session = Depends(get_d
 @app.post("/constraints/spatial", response_model=SpatialValidationResponse)
 def constraints_spatial(request: SpatialValidationRequest, db: Session = Depends(get_db)) -> SpatialValidationResponse:
     return validate_spatial(db, request)
+
+
+@app.post("/optimize", response_model=OptimizationResponse)
+def optimize(request: OptimizationRequest, db: Session = Depends(get_db)) -> OptimizationResponse:
+    return BathroomOptimizer(db).optimize(request)
