@@ -3,16 +3,11 @@ from __future__ import annotations
 from fastapi import Depends, FastAPI, HTTPException, Query
 from sqlalchemy.orm import Session
 
-from app.catalogue.repository import (
-    count_products,
-    count_relationships,
-    get_components,
-    get_product,
-    get_relationships,
-    list_products,
-)
+from app.catalogue.repository import count_products, count_relationships, get_components, get_product, get_relationships, list_products
 from app.constraints.schemas import ConstraintRequest, ConstraintResponse
 from app.constraints.service import validate_candidates
+from app.constraints.spatial import validate_spatial
+from app.constraints.spatial_schemas import SpatialValidationRequest, SpatialValidationResponse
 from app.db.database import engine, get_db
 from app.db.models import Base
 from app.db.schemas import ProductOut, RelationshipOut
@@ -21,8 +16,8 @@ from app.retrieval.service import CatalogueRetrievalService
 
 app = FastAPI(
     title="KOHLER AI Bathroom Intelligence API",
-    version="0.4.0",
-    description="Engine 1 catalogue truth + Engine 2 retrieval + Engine 3 deterministic constraint validation.",
+    version="0.5.0",
+    description="Engine 1 catalogue truth + Engine 2 retrieval + Engine 3 deterministic constraints and spatial validation.",
 )
 
 
@@ -50,16 +45,7 @@ def product(sku: str, db: Session = Depends(get_db)) -> ProductOut:
 
 
 @app.get("/products", response_model=list[ProductOut])
-def products(
-    category: str | None = None,
-    domain: str | None = None,
-    max_price: float | None = Query(default=None, ge=0),
-    min_price: float | None = Query(default=None, ge=0),
-    finish: str | None = None,
-    search: str | None = None,
-    limit: int = Query(default=100, ge=1, le=500),
-    db: Session = Depends(get_db),
-) -> list[ProductOut]:
+def products(category: str | None = None, domain: str | None = None, max_price: float | None = Query(default=None, ge=0), min_price: float | None = Query(default=None, ge=0), finish: str | None = None, search: str | None = None, limit: int = Query(default=100, ge=1, le=500), db: Session = Depends(get_db)) -> list[ProductOut]:
     return list_products(db, category, domain, max_price, min_price, finish, search, limit)
 
 
@@ -81,3 +67,8 @@ def retrieval_search(request: RetrievalRequest, db: Session = Depends(get_db)) -
 @app.post("/constraints/validate", response_model=ConstraintResponse)
 def constraints_validate(request: ConstraintRequest, db: Session = Depends(get_db)) -> ConstraintResponse:
     return validate_candidates(db, request)
+
+
+@app.post("/constraints/spatial", response_model=SpatialValidationResponse)
+def constraints_spatial(request: SpatialValidationRequest, db: Session = Depends(get_db)) -> SpatialValidationResponse:
+    return validate_spatial(db, request)
