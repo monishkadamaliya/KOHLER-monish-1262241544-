@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-import re
-
 from app.db.models import Product
 
 THEME_TERMS: dict[str, set[str]] = {
@@ -22,25 +20,11 @@ COLOUR_TERMS: dict[str, set[str]] = {
 
 def _text(product: Product) -> str:
     values = [
-        product.product_name,
-        product.collection,
-        product.family_id,
-        product.product_type,
-        product.category,
-        product.subcategory,
-        product.raw_description,
-        product.raw_catalogue_text,
-        product.finish_name,
-        product.colour_name,
-        product.colour_family,
+        product.product_name, product.collection, product.family_id, product.product_type,
+        product.category, product.subcategory, product.raw_description, product.raw_catalogue_text,
+        product.finish_name, product.colour_name, product.colour_family,
     ]
     return " ".join(v for v in values if v).lower()
-
-
-def _tokens(value: str | None) -> set[str]:
-    if not value:
-        return set()
-    return set(re.findall(r"[a-z0-9]+(?:\s+[a-z0-9]+)?", value.lower()))
 
 
 def style_match(product: Product, style: str | None) -> tuple[float, list[str], list[str]]:
@@ -52,16 +36,13 @@ def style_match(product: Product, style: str | None) -> tuple[float, list[str], 
     if not hits:
         return 0.0, [], []
     score = min(1.0, 0.55 + 0.15 * len(hits))
-    reasons = [f"Style evidence in catalogue text: {', '.join(sorted(hits)[:4])}"]
-    return score, [style], reasons
+    return score, [style], [f"Style evidence in catalogue text: {', '.join(sorted(hits)[:4])}"]
 
 
 def colour_match(product: Product, preference: str | None) -> tuple[float, list[str]]:
     if not preference:
         return 0.5, []
-    text = " ".join(
-        v.lower() for v in [product.finish_name, product.colour_name, product.colour_family] if v
-    )
+    text = " ".join(v.lower() for v in [product.finish_name, product.colour_name, product.colour_family] if v)
     terms = COLOUR_TERMS.get(preference.lower(), {preference.lower()})
     hits = [term for term in terms if term in text]
     if hits:
@@ -89,21 +70,16 @@ def dimension_match(product: Product, max_width: float | None, max_depth: float 
     return sum(checks) / len(checks), reasons
 
 
-def score_product(
-    product: Product,
-    *,
-    style: str | None,
-    colour_preference: str | None,
-    budget: float | None,
-    max_width_mm: float | None,
-    max_depth_mm: float | None,
-    search: str | None,
-) -> tuple[float, dict]:
+def score_product(product: Product, *, style: str | None, colour_preference: str | None,
+                  budget: float | None, max_width_mm: float | None, max_depth_mm: float | None,
+                  search: str | None) -> tuple[float, dict]:
     style_score, themes, style_reasons = style_match(product, style)
     colour_score, colour_reasons = colour_match(product, colour_preference)
     dim_score, dim_reasons = dimension_match(product, max_width_mm, max_depth_mm)
 
-    semantic = 0.0
+    # This is a deterministic lexical proxy in v1. Embedding/pgvector retrieval will replace
+    # or augment it in the semantic retrieval stage without changing the API contract.
+    semantic = 0.5
     reasons = style_reasons + colour_reasons
     if search:
         query = search.lower().strip()
@@ -114,30 +90,18 @@ def score_product(
         else:
             query_terms = set(query.split())
             text_terms = set(text.split())
-            overlap = len(query_terms & text_terms) / max(len(query_terms), 1)
-            semantic = min(1.0, overlap)
+            semantic = min(1.0, len(query_terms & text_terms) / max(len(query_terms), 1))
             if semantic:
                 reasons.append("Partial catalogue-text match for search query.")
-    else:
-        semantic = 0.5
 
     budget_score = 0.5
     if budget is not None and product.mrp is not None:
+        budget_score = 1.0 - 0.35 * (product.mrp / budget) if product.mrp <= budget else 0.0
         if product.mrp <= budget:
-            budget_score = 1.0 - 0.35 * (product.mrp / budget)
             reasons.append("Product price is within the requested item budget.")
-        else:
-            budget_score = max(0.0, 1.0 - (product.mrp - budget) / budget)
-            reasons.append("Product exceeds the requested item budget; retained only as a retrieval candidate.")
 
     # Retrieval ranking is deliberately not physical validation.
-    total = 100 * (
-        0.30 * semantic
-        + 0.25 * style_score
-        + 0.20 * colour_score
-        + 0.15 * dim_score
-        + 0.10 * budget_score
-    )
+    total = 100 * (0.30 * semantic + 0.25 * style_score + 0.20 * colour_score + 0.15 * dim_score + 0.10 * budget_score)
     return round(total, 2), {
         "semantic_score": round(semantic, 3),
         "style_match": round(style_score, 3),
