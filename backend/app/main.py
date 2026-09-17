@@ -3,15 +3,21 @@ from __future__ import annotations
 from fastapi import Depends, FastAPI, HTTPException, Query
 from sqlalchemy.orm import Session
 
-from app.catalogue.repository import get_components, get_product, get_relationships, list_products
-from app.db.database import get_db
+from app.catalogue.repository import (
+    count_products,
+    count_relationships,
+    get_components,
+    get_product,
+    get_relationships,
+    list_products,
+)
+from app.db.database import SessionLocal, engine, get_db
 from app.db.models import Base
-from app.db.database import engine
 from app.db.schemas import ProductOut, RelationshipOut
 
 app = FastAPI(
     title="KOHLER AI Bathroom Intelligence API",
-    version="0.1.0",
+    version="0.2.0",
     description="Engine 1: authoritative catalogue access layer for the constraint-aware design system.",
 )
 
@@ -24,6 +30,14 @@ def create_tables() -> None:
 @app.get("/health")
 def health() -> dict[str, str]:
     return {"status": "ok", "engine": "catalogue"}
+
+
+@app.get("/catalogue/stats")
+def catalogue_stats(db: Session = Depends(get_db)) -> dict[str, int]:
+    return {
+        "products": count_products(db),
+        "relationships": count_relationships(db),
+    }
 
 
 @app.get("/products/{sku}", response_model=ProductOut)
@@ -39,11 +53,13 @@ def products(
     category: str | None = None,
     domain: str | None = None,
     max_price: float | None = Query(default=None, ge=0),
+    min_price: float | None = Query(default=None, ge=0),
     finish: str | None = None,
+    search: str | None = None,
     limit: int = Query(default=100, ge=1, le=500),
     db: Session = Depends(get_db),
 ) -> list[ProductOut]:
-    return list_products(db, category, domain, max_price, finish, limit)
+    return list_products(db, category, domain, max_price, min_price, finish, search, limit)
 
 
 @app.get("/products/{sku}/relationships", response_model=list[RelationshipOut])
