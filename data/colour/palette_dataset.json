@@ -1,0 +1,205 @@
+{
+  "_provenance_note": "The source page (figma.com/resource-library/color-combinations) names and describes 100 combinations in text, but its actual HEX swatches are rendered as images, not extractable text. Every hex value below is therefore AI-DERIVED from the named color family Figma used (e.g. 'sage', 'terracotta', 'slate blue'), NOT read directly from the source. Treat 'source_palette_name' and 'harmony_type' as source-derived (from the page's own text); treat every 'hex' field and every characteristic/score as AI-derived and unverified against the source's actual swatches. Re-verify against the real Figma swatches or your own Figma export before using these hex values in production.",
+  "palettes": [
+    {
+      "palette_id": "zen_natural_001",
+      "name": "Sage & Stone",
+      "source_reference": "Figma colour-combination reference",
+      "source_palette_name": "Eucalyptus grove",
+      "theme_fit": ["japanese_zen", "natural", "spa"],
+      "harmony_type": "near-neutral",
+      "colours": [
+        { "hex": "#F4F2EC", "role": "base", "provenance": "ai_derived" },
+        { "hex": "#C9CFC4", "role": "secondary", "provenance": "ai_derived" },
+        { "hex": "#5B6B5E", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#3A3F37", "role": "contrast", "provenance": "ai_derived" }
+      ],
+      "characteristics": { "temperature": "neutral", "saturation": "low", "contrast": "low", "visual_density": "soft" },
+      "mood": ["calm", "natural", "minimal"],
+      "material_associations": ["stone", "wood", "ceramic"],
+      "recommended_usage": { "base_surfaces": true, "sanitaryware": true, "vanity": true, "faucet_finish": false, "accent": true },
+      "design_rationale": "Source describes dusty sage green, gray and off-white as 'naturally soothing' and 'grounded' — a near-neutral relationship where the sage functions as a muted accent rather than a saturated hero color. Directly usable as a wall/floor base with sage reserved for accessories or accent tile.",
+      "confidence": "medium"
+    },
+    {
+      "palette_id": "zen_water_002",
+      "name": "Tide Pool",
+      "source_reference": "Figma colour-combination reference",
+      "source_palette_name": "Ocean tide",
+      "theme_fit": ["japanese_zen", "spa", "fresh_airy"],
+      "harmony_type": "monochromatic",
+      "colours": [
+        { "hex": "#EAF3F0", "role": "base", "provenance": "ai_derived" },
+        { "hex": "#B8D8D0", "role": "secondary", "provenance": "ai_derived" },
+        { "hex": "#6FA89B", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#1F3F38", "role": "contrast", "provenance": "ai_derived" }
+      ],
+      "characteristics": { "temperature": "cool", "saturation": "low", "contrast": "medium", "visual_density": "soft" },
+      "mood": ["calm", "fresh"],
+      "material_associations": ["water", "ceramic", "glass"],
+      "recommended_usage": { "base_surfaces": true, "sanitaryware": true, "vanity": false, "faucet_finish": false, "accent": true },
+      "design_rationale": "Source explicitly ties this blue-green monochromatic run to a sense of peace and tranquility. A single-hue progression is low-risk for wet-area surfaces (tile, sanitaryware) since every shade is guaranteed to harmonize.",
+      "confidence": "medium"
+    },
+    {
+      "palette_id": "zen_warm_003",
+      "name": "Coastal Sand",
+      "source_reference": "Figma colour-combination reference",
+      "source_palette_name": "Coastal morning",
+      "theme_fit": ["japanese_zen", "spa", "natural"],
+      "harmony_type": "analogous",
+      "colours": [
+        { "hex": "#F4EFE4", "role": "base", "provenance": "ai_derived" },
+        { "hex": "#CFE3DD", "role": "secondary", "provenance": "ai_derived" },
+        { "hex": "#A9C4D6", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#5E7A87", "role": "contrast", "provenance": "ai_derived" }
+      ],
+      "characteristics": { "temperature": "neutral", "saturation": "low", "contrast": "low", "visual_density": "soft" },
+      "mood": ["calm", "natural", "fresh"],
+      "material_associations": ["stone", "water"],
+      "recommended_usage": { "base_surfaces": true, "sanitaryware": false, "vanity": true, "faucet_finish": false, "accent": true },
+      "design_rationale": "Source pairs seafoam green, soft blue and sandy beige as 'clean, peaceful and versatile.' Sand as base keeps the room warm-neutral even though the accents lean cool — useful where a Zen brief wants warmth without losing the blue-green spa association.",
+      "confidence": "medium"
+    },
+    {
+      "palette_id": "minimal_mono_004",
+      "name": "Salt & Pepper",
+      "source_reference": "Figma colour-combination reference",
+      "source_palette_name": "Salt and pepper",
+      "theme_fit": ["minimalist_modern", "soft_neutral"],
+      "harmony_type": "monochromatic",
+      "colours": [
+        { "hex": "#FAFAF8", "role": "base", "provenance": "ai_derived" },
+        { "hex": "#D9D9D4", "role": "secondary", "provenance": "ai_derived" },
+        { "hex": "#A8A8A2", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#4A4A46", "role": "contrast", "provenance": "ai_derived" }
+      ],
+      "characteristics": { "temperature": "neutral", "saturation": "low", "contrast": "medium", "visual_density": "balanced" },
+      "mood": ["minimal"],
+      "material_associations": ["ceramic", "metal", "glass"],
+      "recommended_usage": { "base_surfaces": true, "sanitaryware": true, "vanity": true, "faucet_finish": true, "accent": false },
+      "design_rationale": "Source describes this as promoting focus with a clean, professional interface — the bathroom-design analogue is letting fixtures/materials carry visual interest against a quiet white-to-charcoal backdrop, which is the standard minimalist-modern bathroom approach.",
+      "confidence": "high"
+    },
+    {
+      "palette_id": "minimal_cool_005",
+      "name": "Frozen Lake",
+      "source_reference": "Figma colour-combination reference",
+      "source_palette_name": "Frozen lake",
+      "theme_fit": ["minimalist_modern", "dark_contemporary"],
+      "harmony_type": "near-neutral",
+      "colours": [
+        { "hex": "#F5F8FA", "role": "base", "provenance": "ai_derived" },
+        { "hex": "#CFE0E8", "role": "secondary", "provenance": "ai_derived" },
+        { "hex": "#7C93A0", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#3E4C54", "role": "contrast", "provenance": "ai_derived" }
+      ],
+      "characteristics": { "temperature": "cool", "saturation": "low", "contrast": "medium", "visual_density": "balanced" },
+      "mood": ["minimal", "calm"],
+      "material_associations": ["glass", "stone", "metal"],
+      "recommended_usage": { "base_surfaces": true, "sanitaryware": true, "vanity": true, "faucet_finish": true, "accent": false },
+      "design_rationale": "Source pairs slate gray, icy blue and snow white as 'cool, minimalist... clean, soothing and sophisticated' — directly usable as-is for a cool-toned modern bathroom, with the contrast shade reserved for fixtures like a matte-black faucet family.",
+      "confidence": "high"
+    },
+    {
+      "palette_id": "minimal_warm_006",
+      "name": "Stone Path",
+      "source_reference": "Figma colour-combination reference",
+      "source_palette_name": "Stone path",
+      "theme_fit": ["minimalist_modern", "warm_minimal", "earthy"],
+      "harmony_type": "near-neutral",
+      "colours": [
+        { "hex": "#F1EDE7", "role": "base", "provenance": "ai_derived" },
+        { "hex": "#D6CCBF", "role": "secondary", "provenance": "ai_derived" },
+        { "hex": "#A69686", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#6B5D4F", "role": "contrast", "provenance": "ai_derived" }
+      ],
+      "characteristics": { "temperature": "warm", "saturation": "low", "contrast": "low", "visual_density": "soft" },
+      "mood": ["calm", "minimal"],
+      "material_associations": ["stone", "wood"],
+      "recommended_usage": { "base_surfaces": true, "sanitaryware": true, "vanity": true, "faucet_finish": false, "accent": true },
+      "design_rationale": "Source notes warm grays with hints of brown feel 'approachable, not cold' — bridges the gap between a pure gray minimalist palette and a fully warm/earthy one; a safe default when a user's brief is ambiguous between 'modern' and 'natural'.",
+      "confidence": "medium"
+    },
+    {
+      "palette_id": "luxury_warm_007",
+      "name": "Golden Taupe",
+      "source_reference": "Figma colour-combination reference",
+      "source_palette_name": "Golden taupe",
+      "theme_fit": ["classic_luxury", "warm_luxury"],
+      "harmony_type": "analogous",
+      "colours": [
+        { "hex": "#F7F2E9", "role": "base", "provenance": "ai_derived" },
+        { "hex": "#D9C6A3", "role": "secondary", "provenance": "ai_derived" },
+        { "hex": "#B69568", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#7A5E3A", "role": "contrast", "provenance": "ai_derived" }
+      ],
+      "characteristics": { "temperature": "warm", "saturation": "medium", "contrast": "medium", "visual_density": "balanced" },
+      "mood": ["luxurious"],
+      "material_associations": ["metal", "wood", "stone"],
+      "recommended_usage": { "base_surfaces": true, "sanitaryware": false, "vanity": true, "faucet_finish": true, "accent": true },
+      "design_rationale": "Source frames muted gold/warm taupe/soft cream as 'understated luxury' with 'timeless appeal.' The accent tone sits in a hue range that reads well against warm-metallic (brass/gold) faucet finishes without the palette needing an actual metallic color value — the relationship, not a literal metallic hex, is what carries the luxury read.",
+      "confidence": "high"
+    },
+    {
+      "palette_id": "luxury_deep_008",
+      "name": "Quiet Luxury",
+      "source_reference": "Figma colour-combination reference",
+      "source_palette_name": "Quiet luxury",
+      "theme_fit": ["classic_luxury", "neutral_metallic"],
+      "harmony_type": "tonal",
+      "colours": [
+        { "hex": "#F6EFE8", "role": "base", "provenance": "ai_derived" },
+        { "hex": "#E3CFC1", "role": "secondary", "provenance": "ai_derived" },
+        { "hex": "#B99A85", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#6E4F3F", "role": "contrast", "provenance": "ai_derived" }
+      ],
+      "characteristics": { "temperature": "warm", "saturation": "low", "contrast": "low", "visual_density": "soft" },
+      "mood": ["luxurious", "calm"],
+      "material_associations": ["ceramic", "wood"],
+      "recommended_usage": { "base_surfaces": true, "sanitaryware": true, "vanity": true, "faucet_finish": false, "accent": true },
+      "design_rationale": "Source explicitly calls out champagne's yellow/pink undertones as elegant with a vintage feel while staying 'neutral.' Useful specifically because it demonstrates luxury doesn't require high contrast or dark tones — a design-principle worth encoding as a generation rule (see palette_generation_rules).",
+      "confidence": "high"
+    },
+    {
+      "palette_id": "luxury_dark_009",
+      "name": "Jewel Accent",
+      "source_reference": "Figma colour-combination reference",
+      "source_palette_name": "Jewel box",
+      "theme_fit": ["dark_luxury"],
+      "harmony_type": "triadic",
+      "colours": [
+        { "hex": "#1B3A6B", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#0F5C46", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#4A2E6B", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#14171C", "role": "contrast", "provenance": "ai_derived_grounding_addition" }
+      ],
+      "characteristics": { "temperature": "cool", "saturation": "high", "contrast": "high", "visual_density": "strong" },
+      "mood": ["luxurious", "dramatic"],
+      "material_associations": ["metal", "glass"],
+      "recommended_usage": { "base_surfaces": false, "sanitaryware": false, "vanity": false, "faucet_finish": false, "accent": true },
+      "design_rationale": "Source pairs sapphire/emerald/amethyst as 'opulent and dramatic' for fashion/gallery contexts — explicitly NOT a base-surface palette for a bathroom. Tier 3 / experimental: usable only as a single sparing accent (one tile band, one accessory) against a neutral base from another palette; the near-black contrast shade was added by this analysis (not sourced) purely to demonstrate how it would need grounding, and should be treated as a placeholder, not a recommendation.",
+      "confidence": "low"
+    },
+    {
+      "palette_id": "earthy_010",
+      "name": "Spiced Neutral",
+      "source_reference": "Figma colour-combination reference",
+      "source_palette_name": "Spiced chai",
+      "theme_fit": ["earthy", "warm_minimal", "classic_luxury"],
+      "harmony_type": "analogous",
+      "colours": [
+        { "hex": "#F7F1E6", "role": "base", "provenance": "ai_derived" },
+        { "hex": "#D9B48F", "role": "secondary", "provenance": "ai_derived" },
+        { "hex": "#A9713F", "role": "accent", "provenance": "ai_derived" },
+        { "hex": "#6B4423", "role": "contrast", "provenance": "ai_derived" }
+      ],
+      "characteristics": { "temperature": "warm", "saturation": "medium", "contrast": "medium", "visual_density": "balanced" },
+      "mood": ["calm", "natural"],
+      "material_associations": ["wood", "ceramic"],
+      "recommended_usage": { "base_surfaces": true, "sanitaryware": false, "vanity": true, "faucet_finish": false, "accent": true },
+      "design_rationale": "Source ties cream/cinnamon/nutmeg to warmth and familiarity across wellness contexts. Strong candidate for wood-toned vanities against a light wall, a common real-world bathroom material pairing.",
+      "confidence": "medium"
+    }
+  ]
+}
