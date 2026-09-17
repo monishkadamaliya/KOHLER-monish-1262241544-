@@ -11,6 +11,8 @@ from app.constraints.spatial_schemas import SpatialValidationRequest, SpatialVal
 from app.db.database import engine, get_db
 from app.db.models import Base
 from app.db.schemas import ProductOut, RelationshipOut
+from app.intelligence.schemas import IntentParseRequest, IntentParseResponse
+from app.intelligence.service import IntentService
 from app.optimization.configuration_schemas import ConfigurationSearchRequest, ConfigurationSearchResponse
 from app.optimization.configuration_solver import FeasibleConfigurationSolver
 from app.optimization.schemas import OptimizationRequest, OptimizationResponse
@@ -20,8 +22,8 @@ from app.retrieval.service import CatalogueRetrievalService
 
 app = FastAPI(
     title="KOHLER AI Bathroom Intelligence API",
-    version="0.7.0",
-    description="Catalogue truth + retrieval + deterministic constraints/spatial validation + multi-objective and feasible configuration optimization.",
+    version="0.8.0",
+    description="Catalogue truth + retrieval + deterministic constraints/spatial validation + optimization + guarded Amazon Nova intent extraction.",
 )
 
 
@@ -88,3 +90,8 @@ def optimize_configuration(request: ConfigurationSearchRequest, db: Session = De
     if request.optimization.room_width_mm is None or request.optimization.room_depth_mm is None:
         raise HTTPException(status_code=422, detail="room_width_mm and room_depth_mm are required for feasible configuration placement.")
     return FeasibleConfigurationSolver(db).search(request)
+
+
+@app.post("/intelligence/parse-intent", response_model=IntentParseResponse)
+def parse_intent(request: IntentParseRequest) -> IntentParseResponse:
+    return IntentService().parse(request)
