@@ -5,7 +5,6 @@ from math import cos, radians, sin
 
 from shapely.affinity import rotate
 from shapely.geometry import Polygon, box
-from shapely.ops import unary_union
 
 
 @dataclass(frozen=True)
@@ -18,7 +17,6 @@ class RectangleSpec:
 
 
 def room_polygon(width_mm: float, depth_mm: float) -> Polygon:
-    """Create a room coordinate system with origin at the lower-left corner."""
     return box(0, 0, width_mm, depth_mm)
 
 
@@ -67,12 +65,14 @@ def door_swing_polygon(
     width_mm: float,
     swing_deg: float,
     direction_deg: float = 0.0,
+    samples: int = 24,
 ) -> Polygon:
-    """Approximate an inward door swing as the swept polygon of a rectangular door."""
-    segments = []
-    for i in range(12):
-        angle = direction_deg + swing_deg * i / 11
-        dx = width_mm * cos(radians(angle))
-        dy = width_mm * sin(radians(angle))
-        segments.append(box(hinge_x_mm, hinge_y_mm, hinge_x_mm + dx, hinge_y_mm + dy))
-    return unary_union(segments)
+    """Approximate the swept area of a zero-thickness door leaf about its hinge."""
+    if swing_deg <= 0:
+        return Polygon([(hinge_x_mm, hinge_y_mm)] * 3)
+    angles = [direction_deg + swing_deg * i / (samples - 1) for i in range(samples)]
+    arc = [
+        (hinge_x_mm + width_mm * cos(radians(angle)), hinge_y_mm + width_mm * sin(radians(angle)))
+        for angle in angles
+    ]
+    return Polygon([(hinge_x_mm, hinge_y_mm), *arc])
