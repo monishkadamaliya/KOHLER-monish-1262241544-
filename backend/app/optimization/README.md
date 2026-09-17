@@ -1,56 +1,47 @@
-# Engine 4 — Multi-Objective Optimization
+# Engine 4.1 — Configuration Search & Pareto Optimization
 
-Engine 4 ranks catalogue candidates after deterministic hard constraints have removed products that cannot be considered feasible.
+Engine 4.1 searches complete bathroom configurations rather than scoring isolated products.
 
-## Pipeline
+## Flow
 
 ```text
-Candidate SKUs
-  -> hard budget check
-  -> dependency evidence check
-  -> deterministic footprint check
-  -> objective scoring
-  -> weighted ranking
-  -> top-K feasible designs
+Category candidates
+→ bounded configuration generation
+→ hard budget / catalogue checks
+→ configuration objective evaluation
+→ Pareto frontier
+→ weighted ranking
+→ top-K design alternatives
 ```
+
+## Hard constraints
+
+A configuration is discarded when:
+- a SKU is absent from the authoritative catalogue
+- a required price is missing
+- total catalogue price exceeds the requested budget
+
+Spatial collision and detailed compatibility remain deterministic Engine 3/3.1 responsibilities and must be invoked before a configuration is presented as physically valid.
 
 ## Objectives
 
-The engine exposes configurable weights for:
-
 - spatial feasibility
-- compatibility
+- compatibility evidence
 - budget efficiency
 - style match
 - colour match
 - space efficiency
-- functionality evidence
-- sustainability evidence
+- functionality
+- documented sustainability evidence
 
-Weights are normalized at runtime, so the API accepts any non-negative relative weighting.
+## Pareto reasoning
 
-## Important boundary
+A configuration is retained on the Pareto frontier when no other evaluated configuration is at least as good across every objective and strictly better on one. This preserves meaningful trade-offs instead of forcing one hidden definition of “best”.
 
-Engine 4 does not invent catalogue facts. It uses catalogue records and the existing deterministic retrieval/constraint evidence. Sustainability receives a positive score only when explicit catalogue text contains documented evidence such as water-saving, water-efficient, recycled, or low-flow terminology.
+## Guardrails
 
-The current endpoint ranks **candidate SKUs**. Full multi-fixture configuration search, automatic placement generation, Pareto-front generation, and OR-Tools CP-SAT optimization are the next optimization iteration; they should consume Engine 3.1 spatial validation rather than bypass it.
-
-## API
-
-`POST /optimize`
-
-Example request:
-
-```json
-{
-  "candidate_skus": ["K-XXXX", "K-YYYY"],
-  "budget": 100000,
-  "style": "Japanese Zen",
-  "colour_preference": "natural",
-  "room_width_mm": 2400,
-  "room_depth_mm": 1800,
-  "top_k": 5
-}
-```
-
-A product is never promoted into the feasible list merely because it has a high aesthetic score: hard budget, dependency, and available-footprint checks run first.
+- No SKU is invented.
+- No missing catalogue fact is inferred.
+- Missing evidence is not converted into compatibility.
+- Search is bounded to avoid uncontrolled Cartesian-product growth.
+- Final physical validity must come from Engine 3/3.1.
