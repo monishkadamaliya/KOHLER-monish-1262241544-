@@ -11,6 +11,8 @@ from app.catalogue.repository import (
     get_relationships,
     list_products,
 )
+from app.constraints.schemas import ConstraintRequest, ConstraintResponse
+from app.constraints.service import validate_candidates
 from app.db.database import engine, get_db
 from app.db.models import Base
 from app.db.schemas import ProductOut, RelationshipOut
@@ -19,8 +21,8 @@ from app.retrieval.service import CatalogueRetrievalService
 
 app = FastAPI(
     title="KOHLER AI Bathroom Intelligence API",
-    version="0.3.0",
-    description="Engine 1 catalogue truth + Engine 2 ranked catalogue retrieval for the constraint-aware design system.",
+    version="0.4.0",
+    description="Engine 1 catalogue truth + Engine 2 retrieval + Engine 3 deterministic constraint validation.",
 )
 
 
@@ -36,10 +38,7 @@ def health() -> dict[str, str]:
 
 @app.get("/catalogue/stats")
 def catalogue_stats(db: Session = Depends(get_db)) -> dict[str, int]:
-    return {
-        "products": count_products(db),
-        "relationships": count_relationships(db),
-    }
+    return {"products": count_products(db), "relationships": count_relationships(db)}
 
 
 @app.get("/products/{sku}", response_model=ProductOut)
@@ -75,8 +74,10 @@ def components(sku: str, db: Session = Depends(get_db)) -> list[RelationshipOut]
 
 
 @app.post("/retrieval/search", response_model=RetrievalResponse)
-def retrieval_search(
-    request: RetrievalRequest,
-    db: Session = Depends(get_db),
-) -> RetrievalResponse:
+def retrieval_search(request: RetrievalRequest, db: Session = Depends(get_db)) -> RetrievalResponse:
     return CatalogueRetrievalService(db).search(request)
+
+
+@app.post("/constraints/validate", response_model=ConstraintResponse)
+def constraints_validate(request: ConstraintRequest, db: Session = Depends(get_db)) -> ConstraintResponse:
+    return validate_candidates(db, request)
