@@ -11,6 +11,8 @@ from app.constraints.spatial_schemas import SpatialValidationRequest, SpatialVal
 from app.db.database import engine, get_db
 from app.db.models import Base
 from app.db.schemas import ProductOut, RelationshipOut
+from app.optimization.configuration_schemas import ConfigurationSearchRequest, ConfigurationSearchResponse
+from app.optimization.configuration_solver import FeasibleConfigurationSolver
 from app.optimization.schemas import OptimizationRequest, OptimizationResponse
 from app.optimization.service import BathroomOptimizer
 from app.retrieval.schemas import RetrievalRequest, RetrievalResponse
@@ -18,8 +20,8 @@ from app.retrieval.service import CatalogueRetrievalService
 
 app = FastAPI(
     title="KOHLER AI Bathroom Intelligence API",
-    version="0.6.0",
-    description="Engine 1 catalogue truth + Engine 2 retrieval + Engine 3 deterministic constraints/spatial validation + Engine 4 multi-objective optimization.",
+    version="0.7.0",
+    description="Catalogue truth + retrieval + deterministic constraints/spatial validation + multi-objective and feasible configuration optimization.",
 )
 
 
@@ -79,3 +81,10 @@ def constraints_spatial(request: SpatialValidationRequest, db: Session = Depends
 @app.post("/optimize", response_model=OptimizationResponse)
 def optimize(request: OptimizationRequest, db: Session = Depends(get_db)) -> OptimizationResponse:
     return BathroomOptimizer(db).optimize(request)
+
+
+@app.post("/optimize/configuration", response_model=ConfigurationSearchResponse)
+def optimize_configuration(request: ConfigurationSearchRequest, db: Session = Depends(get_db)) -> ConfigurationSearchResponse:
+    if request.optimization.room_width_mm is None or request.optimization.room_depth_mm is None:
+        raise HTTPException(status_code=422, detail="room_width_mm and room_depth_mm are required for feasible configuration placement.")
+    return FeasibleConfigurationSolver(db).search(request)
