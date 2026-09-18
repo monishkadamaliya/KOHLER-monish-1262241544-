@@ -19,8 +19,7 @@ from app.optimization.configuration_schemas import ConfigurationSearchRequest, C
 from app.optimization.configuration_solver import FeasibleConfigurationSolver
 from app.optimization.schemas import OptimizationRequest, OptimizationResponse
 from app.optimization.service import BathroomOptimizer
-from app.orchestration.schemas import DesignGenerateRequest, DesignGenerateResponse
-from app.orchestration.service import DesignOrchestrator
+from app.orchestration.routes import router as design_router
 from app.retrieval.schemas import RetrievalRequest, RetrievalResponse
 from app.retrieval.service import CatalogueRetrievalService
 from app.vision.schemas import VisionAnalyzeResponse
@@ -28,7 +27,7 @@ from app.vision.service import BathroomVisionService
 
 app = FastAPI(
     title="KOHLER AI Bathroom Intelligence API",
-    version="1.1.0",
+    version="1.2.0",
     description="Catalogue truth + retrieval + deterministic constraints/spatial validation + optimization + guarded Nova intent/image understanding + catalogue-grounded colour intelligence + end-to-end design orchestration.",
 )
 
@@ -108,9 +107,7 @@ def colour_palette(request: PaletteRequest, db: Session = Depends(get_db)) -> Pa
     return ColourIntelligenceService(db).generate(request)
 
 
-@app.post("/design/generate", response_model=DesignGenerateResponse)
-def generate_design(request: DesignGenerateRequest, db: Session = Depends(get_db)) -> DesignGenerateResponse:
-    return DesignOrchestrator(db).generate(request)
+app.include_router(design_router)
 
 
 @app.post("/vision/analyze", response_model=VisionAnalyzeResponse)
