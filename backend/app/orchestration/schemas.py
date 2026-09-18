@@ -12,9 +12,10 @@ class DesignGenerateRequest(BaseModel):
     budget_inr: float | None = Field(default=None, gt=0)
     style: str | None = None
     colour_preference: str | None = None
-    required_categories: list[str] = Field(default_factory=list, min_length=1)
+    required_categories: list[str] = Field(default_factory=list)
     domain: str = "bathroom"
     candidates_per_category: int = Field(default=8, ge=1, le=30)
+    max_configurations: int = Field(default=5000, ge=1, le=20000)
     top_k: int = Field(default=3, ge=1, le=10)
 
 
